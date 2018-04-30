@@ -1,0 +1,1127 @@
+
+<!-- saved from url=(0054)http://netwk.hannam.ac.kr/data/report_search/lecture5/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<meta name="GENERATOR" content="HTML document by Hwpw 97">
+<title>1) HTML 이란</title>
+</head>
+
+<body>
+
+<p>
+<a name="[문서의 처음]"></a>
+<img src="./1) HTML 이란_files/XPJKG001.GIF" border="1" width="320" height="29" hspace="3" vspace="3" align="BOTTOM">
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">1) HTML 이란</font></span></font>
+</p><p>	<font face="돋움">HTML 이란 Hyper Text Markup Language 의 약자로써 월드와이드웹 문서를 작성하는 Markup Language 입니다. HTML 은 여러 태그들로 구성되어 있으며 각 태그들을 사용하여 원하는 형태의 문서를 만들어 갈 수 있습니다. 인터넷문서는 Hyper Text 의 원리를 이용하여 여러 문서를 링크시켜 다양한 정보를 손쉽게 검색하여 볼 수 있게 만들어 줍니다. 이러한 다양한 표현의 가능성과 쉬운 사용으로 월드와이드웹을 짧은 시간에 대중시키는데 원동력이 되었습니다. </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">2) HTML 문서작성</font></span></font>
+</p><p><font face="바탕">     </font><font face="돋움">   HTML 문서의 작성은 일반 텍스트 에디터나 전용 에디터를 사용하면 누구나 쉽게 작성할 수 있습니다. 일반 텍스트 문서와 같이 작성하면 되며 저장시 확장자를 *.HTM 이나 *.HTML으로 저장하면 브라우저가 인터넷 문서임을 인식하고 브라우저 화면에 뿌려줍니다. 확장자는 위의 두 가지 모두 가능하나 한 가지 주의해야 할 것은 대부분 자신의 계정이 있는 서버에 파일을 올릴 경우 처음으로 보여지는 파일의 경우에는 확장자를 *.HTML 해야합니다. 이것은 브라우저나 HTML 자체의 특성이 아니라 서버에서 각 계정사용자들의 주소를 외부사용자의 요구 있을 때 서버에서 설정되어진 이름을 가진 파일을 보여주도록 설정해 놓았기 때문입니다. 일반적으로 초기 파일의 이름은 index.html 입니다. </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">3) 인터넷문서의 기본형식</font></span></font>
+</p><p><font face="돋움">HTML 문서는 기본적인 골격은 다음과 같다 </font>
+<br>
+</p><p><b>&lt;<font face="굴림">html&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">head&gt; &lt;title&gt;타이틀&lt;/title&gt; &lt;/head&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">body&gt;</font></b>
+</p><p><b><font face="굴림">문서의 본문내용</font></b>
+</p><p><b>&lt;<font face="굴림">/body&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/html&gt;</font></b>
+<br>
+</p><p>	<font face="돋움">먼저 위의 예를 보면 각 태그들이 한 쌍으로 되어있다는 것을 알 수 있습니다. 태그는 일반적으로 시작을 알리는 태그와 그 태그가 끝났음을 알리는 태그로 이루어져 있습니다. 그리고 각 태그 안&lt; &gt;에는 태그 내용을 제어할 수 있는 여러 속성들을 포함하고 있습니다. 하지만 모든 태그가 모두 동일한 형식을 취하는 것은 아니며 어떤 태그는 쌍을 이루지 않은 하나의 태그로써 가능한 것도 있으며 자체에 다른 속성을 포함하지 않는 것도 있습니다. 위에서 볼 수 있듯이 인터넷문서의 기본적인 형식을 구성하는 태그들에 대하여 살펴보겠습니다 </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">4) 기본적인 형식을 이루는 태그들</font></span></font>
+</p><p>&lt;<font face="돋움">HTML&gt; &lt;/HTML&gt; </font>
+</p><p>	<font face="돋움">문서가 인터넷 문서의 시작과 끝임을 알리는 역할을 합니다. 항상 인터넷문서의 맨 처음과 끝에 위치합니다. </font>
+<br>
+</p><p>&lt;<font face="돋움">HEAD&gt; &lt;/HEAD&gt; </font>
+</p><p>	<font face="돋움">문서 서문의 시작과 끝을 알립니다. 별다른 기능을 하진 않습니다. </font>
+<br>
+</p><p>&lt;<font face="돋움">TITLE&gt;타이틀 명 기입&lt;/TITLE&gt; </font>
+</p><p>	<font face="돋움">문서의 제목을 나타내주는 태그이다 브라우저의 맨 위를 보면 문서의 제목이 나와있는 것을 볼 수 있습니다. </font>
+<br>
+</p><p>&lt;<font face="돋움">BODY&gt;본문의 내용&lt;/BODY&gt; </font>
+</p><p>	<font face="돋움">문서 본문의 시작과 끝임을 알립니다. 이 태그 안에는 문서 전반에 영향을 주는 여러 속성들이 있습니다. 그 속성들은 다음과 같습니다. </font>
+<br>
+</p><p>	<font face="돋움">(a) Background color </font>
+</p><p>		&lt;<font face="돋움">BODY BGCOLOR="컬러명 또는 헥사코드"&gt; </font>
+</p><p>		<font face="돋움">배경의 색을 바꿔줍니다. 보통 브라우저의 배경색은 윈도우의 디폴트 색인 회색입니다 색상은 색상명(Black, White, Blue...)과 헥사코드 값으로 나타낼 수 있습니다. 헥사코드는 색상의 R. G. B 값을 16진수로 나타낸 것이다.</font>
+</p><p>		<font face="돋움">(예)</font>
+</p><p>	<b>&lt;<font face="굴림">BODY BGCOLOR="#ff0000"&gt; 빨강 배경</font></b>
+</p><p>	<b>&lt;<font face="굴림">BODY BGCOLOR="#00ff00"&gt; 초록 배경</font></b>
+</p><p>	<b>&lt;<font face="굴림">BODY BGCOLOR="blue"&gt;파랑 배경 </font></b>
+<br>
+</p><p>	<font face="돋움">(b) Background image </font>
+</p><p>		&lt;<font face="돋움">BODY BACKGROUND="배경이미지가 있는 URL"&gt; </font>
+</p><p>		<font face="돋움">웹사이트들을 돌아다니다 보면 벽돌 모양에, 암석 모양의 배경들이 펼쳐진 것을 보셨을 것입니다. 이 속성이 바로 그러한 배경이미지를 지정해 주는 속성입니다 URL이란 경로를 말하는 것으로 잘 모르시는 분은 계속되는 강좌를 통해서 알게됨으로 그냥 넘어가시기 바랍니다 </font>
+</p><p>		<font face="돋움">(예)</font>
+</p><p>	<b>&lt;<font face="굴림">BODY BACKGROUND="../../image.gif"&gt;</font></b>
+</p><p>	<b>&lt;<font face="굴림">BODY BACKGROUND="http://www.haninfo.net/~narsis/image.gif"&gt; </font></b>
+<br>
+</p><p>	<font face="돋움">(c) Text Color </font>
+</p><p>		&lt;<font face="돋움">BODY TEXT="색상명 또는 헥사코드"&gt;</font>
+</p><p>		<font face="돋움">이 속성은 문서전반에 쓰이는 문자의 색깔을 지정해주는 속성입니다. 색상지정은 (a)와 같습니다 </font>
+</p><p>		<font face="돋움">(예) </font>
+</p><p>	<b>&lt;<font face="돋움">BODY TEXT="#0000ff"&gt; </font></b>
+<br>
+</p><p>	<font face="돋움">(d) Link Color </font>
+</p><p>		&lt;<font face="돋움">BODY LINK="색상명 또는 헥사코드"&gt;</font>
+</p><p>		<font face="돋움">링크된 텍스트의 색깔을 바꿔줍니다. 기본적인 색상은 파란색입니다. 링크란 다른 문서나 멀티미디어요소를 연결시키는 것으로 링크에 관련된 태그에서 언급합니다. </font>
+<br>
+</p><p>	<font face="돋움">(e) Visited Link </font>
+</p><p>		&lt;<font face="돋움">BODY VLINK="색상명 또는 헥사코드"&gt;</font>
+</p><p>		<font face="돋움">방문했던 링크부분의 색상을 지정하는 속성입니다. 기본적인 색상은 보라색입니다 </font>
+<br>
+</p><p>	<font face="돋움">(f) Active Link </font>
+</p><p>		&lt;<font face="돋움">BODY ALINK="색상명 또는 헥사코드"&gt;</font>
+</p><p>		<font face="돋움">이 속성은 마우스로 링크된 부분을 클릭하고 아직 손을 떼지 않았을 때의 색깔을 말합니다. 기본적인 색상은 빨간색입니다 </font>
+<br>
+<br>
+</p><p>
+<img src="./1) HTML 이란_files/XPJKG002.GIF" border="1" width="320" height="29" hspace="3" vspace="3" align="BOTTOM">
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">1) 문단정렬(Alignment)</font></span></font>
+</p><p>	<font face="돋움">텍스트와 이미지 등 인터넷문서에서의 기본적인 정렬은 왼쪽정렬을 기본으로 합니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; Center </font>
+</p><p>	&lt;<font face="돋움">CENTER&gt;&lt;/CENTER&gt;</font>
+</p><p>	<font face="돋움">이 태그는 텍스트나 이미지 등을 문서 중앙에 위치하게 해주는 태그이다 태그의 끝을 알리지 않고 나두면 시작 태그이하의 모든 것들은 문서중앙에 정렬된다.</font>
+</p><p>	
+</p><p>	<font face="돋움">(예)</font>
+</p><p><b>&lt;<font face="굴림">center&gt;</font></b>
+</p><p><b><font face="굴림">HOMEPAGE DEVELOPER</font></b>
+</p><p><b><font face="굴림">HTML REFERENCE 입니다</font></b>
+</p><p><b>&lt;<font face="굴림">/center&gt;</font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 경우)</font>
+</p><p align="CENTER">	<font face="돋움">HOMEPAGE DEVELOPER</font>
+</p><p align="CENTER">	<font face="돋움">HTML REFERENCE 입니다 </font>
+<br>
+</p><p><font face="돋움">&#12039; Align text</font>
+</p><p>	&lt;<font face="돋움">P ALIGN=LEFT|CENTER|RIGHT&gt;내용&lt;/P&gt; </font>
+</p><p>	<font face="돋움">텍스트 정렬시키는 태그입니다. 이 태그 안에 들어간 태그들은 ALIGN 속성에서 지정한 대로 왼쪽, 오른쪽, 가운데로 정렬합니다 </font>
+</p><p>	
+</p><p>	<font face="돋움">(예)</font>
+</p><p><b>&lt;<font face="굴림">P ALIGN=RIGHT&gt;</font></b>
+</p><p><b><font face="굴림">HOMEPAGE DEVELOPER</font></b>
+</p><p><b><font face="굴림">HTML REFERENCE 입니다</font></b>
+</p><p><b>&lt;<font face="굴림">/P&gt;</font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 경우)</font>
+</p><p align="RIGHT"><font face="돋움">HOMEPAGE DEVELOPER</font>
+</p><p align="RIGHT"><font face="돋움">HTML REFERENCE 입니다 </font>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">2) 문단구분(Dividers)</font></span></font>
+</p><p><font face="돋움">&#12039; Line Break</font>
+<br>
+</p><p>	&lt;<font face="돋움">br&gt;</font>
+</p><p>	<font face="돋움">문장을 다음 줄로 넘길 때 사용하는 태그이다 엔터키를 한 번 친 것과 같습니다 </font>
+<br>
+</p><p>	<font face="돋움">(예)</font>
+</p><p><b><font face="굴림">저의홈페이지에 오신 것을 환영합니다 여러분 정말 환영해요!&lt;br&gt;</font></b>
+</p><p><b><font face="굴림">저의홈페이지에 오신 것을 환영합니다 &lt;br&gt;여러분 정말 환영해요! </font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력했을 때)</font>
+</p><p>	<font face="돋움">저의홈페이지에 오신 것을 환영합니다 여러분 정말 환영해요!</font>
+</p><p>	<font face="돋움">저의홈페이지에 오신 것을 환영합니다</font>
+</p><p>	<font face="돋움">여러분 정말 환영해요 </font>
+<br>
+</p><p><font face="돋움">&#12039; Paragraph</font>
+<br>
+</p><p>	&lt;<font face="돋움">p&gt;</font>
+</p><p>	<font face="돋움">위의&lt;br&gt; 태그와 비슷합니다 하지만 이 태그는 문단을 구분할 때 사용합니다 한 줄의 빈줄을 남기고 줄을 구분합니다 </font>
+<br>
+</p><p>	<font face="돋움">(예)</font>
+</p><p><b><font face="굴림">홈페이지를 만들어 봅시다&lt;br&gt;정말 쉽습니다&lt;br&gt; </font></b>
+</p><p><b><font face="굴림">홈페이지를 만들어 봅시다&lt;p&gt;정말 쉽습니다 </font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 경우)</font>
+</p><p>	<font face="돋움">홈페이지를 만들어 봅시다</font>
+</p><p>	<font face="돋움">정말 쉽습니다 </font>
+</p><p>	<font face="돋움">홈페이지를 만들어 봅시다</font>
+<br>
+</p><p>	<font face="돋움">정말 쉽습니다 </font>
+<br>
+</p><p><font face="돋움">&#12039; Horizontal Rule</font>
+<br>
+</p><p>	&lt;<font face="돋움">HR 속성&gt; </font>
+</p><p>	<font face="돋움">이 태그는 선을 그어줌으로써 문단을 나누어줍니다. 문단을 나눈 다기보다는 선을 긋는다는 말이 더 적당하겠군요. 이 태그에는 선의 두께와 길이 위치 등을 지정하는 속성이 있습니다 </font>
+<br>
+</p><p>	<font face="돋움">(a) Alignment </font>
+</p><p>		&lt;<font face="돋움">HR ALIGN=LEFT|RIGHT|CENTER&gt;</font>
+</p><p>		<font face="돋움">선의 위치를 지정합니다 왼쪽, 가운데, 오른쪽으로 정렬합니다.</font>
+<br>
+</p><p>	<font face="돋움">(b) Thickness </font>
+</p><p>	&lt;<font face="돋움">HR SIZE="픽셀 값"&gt; </font>
+</p><p>	<font face="돋움">선의 굵기를 지정합니다. 굵기는 픽셀 값으로 나타냅니다.</font>
+<br>
+</p><p>	<font face="돋움">(예)</font>
+</p><p><b>&lt;<font face="굴림">HR SIZE="5"&gt; &lt;BR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">HR SIZE="10"&gt; </font></b>
+</p><p>	
+</p><p>	<font face="돋움">(c) Width</font>
+</p><p>	&lt;<font face="돋움">HR WIDTH="픽셀 값이나 백분율"&gt; </font>
+</p><p>	<font face="돋움">선의 폭(길이)을 지정합니다. 폭은 픽셀 값과 백분율로 나타낼 수 있습니다. 백분율로 나타낼 때는 화면에 대한 상대적인 백분율입니다 </font>
+<br>
+</p><p>	<font face="돋움">(예)</font>
+</p><p><b>&lt;<font face="굴림">HR WIDTH="100"&gt; &lt;BR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">HR WIDTH="50%"&gt; </font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 경우)</font>
+<br>
+</p><p>	<font face="돋움">(d) Solid Line</font>
+</p><p>	&lt;<font face="돋움">HR NOSHADE&gt;</font>
+</p><p>	<font face="돋움">선을 입체감이 없이 그냥 보통 선으로 보인답니다. 이름에서 알 수 있듯이 "그림자 없음(No Shade)" 입니다 </font>
+<br>
+</p><p>		<font face="돋움">(예)</font>
+</p><p>		&lt;<font face="돋움">HR NOSHADE size=4 width=16&gt; </font>
+</p><p>	
+</p><p>		<font face="돋움">(화면에 출력된 경우)</font>
+<br>
+</p><p><font face="돋움">&#12039; No Break </font>
+</p><p>	&lt;<font face="돋움">NOBR &gt;</font>
+</p><p>	<font face="돋움">라인이 끊어지는 것(Line Break)을 막아줍니다. &lt;BR&gt;태그의 반대 역할을 합니다.</font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">3) 리스트 만들기(Lists)</font></span></font>
+</p><p><font face="돋움">&#12039; Unordered List </font>
+</p><p>	&lt;<font face="돋움">UL&gt; &lt;LI&gt; &lt;/UL&gt; </font>
+</p><p>	<font face="돋움">이 태그는 순서가 부여되지 않는 리스트를 만들 때 사용됩니다. 예를 보는 것이 빠르겠군요.</font>
+<br>
+</p><p>	<font face="돋움">(예)</font>
+</p><p><b><font face="굴림">This is Example Unordered List.&lt;P&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">UL&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">LI&gt;I am One.</font></b>
+</p><p><b>&lt;<font face="굴림">LI&gt;I am Two.</font></b>
+</p><p><b>&lt;<font face="굴림">/UL&gt; </font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 경우)</font>
+</p><p>	<font face="돋움">This is Example Unordered List.</font>
+<br>
+</p><p>	<font face="돋움">  &#12056;I am One. </font>
+</p><p>	<font face="돋움">  &#12056;I am Two. </font>
+<br>
+</p><p><font face="돋움">이 태그에는 정렬되는 문장 앞에 사각형, 원, 빈 사각형 모양을 나타내는 속성이 있습니다. 속성은 다음과 같습니다. </font>
+<br>
+</p><p>	<font face="돋움">(a) Bullet Type </font>
+</p><p>	&lt;<font face="돋움">UL TYPE=DISC|CIRCLE|SQUARE&gt;</font>
+</p><p>	<font face="돋움">예를 통해 속성의 역할을 보겠습니다.</font>
+<br>
+</p><p>	<font face="돋움">(예)</font>
+</p><p><b><font face="굴림">Complex Unordered List Items. &lt;P&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">UL&gt; type=disc</font></b>
+</p><p><b>&lt;<font face="굴림">LI&gt; Main Item 1</font></b>
+</p><p><b>&lt;<font face="굴림">UL type=square&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">LI&gt; Sub Item 1</font></b>
+</p><p><b>&lt;<font face="굴림">LI&gt; Sub Item 2</font></b>
+</p><p><b>&lt;<font face="굴림">LI&gt; Sub Item 3</font></b>
+</p><p><b>&lt;<font face="굴림">/UL&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">LI&gt; Main Item 2</font></b>
+</p><p><b>&lt;<font face="굴림">LI type=square&gt; Main Item 3</font></b>
+</p><p><b>&lt;<font face="굴림">LI&gt; Main Item 4</font></b>
+</p><p><b>&lt;<font face="굴림">/UL&gt; </font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 경우)</font>
+</p><p>	<font face="돋움">Complex Unordered List Items. </font>
+<br>
+</p><p>	<font face="돋움">&#12056;Main Item 1 </font>
+</p><p>		<font face="돋움">&#12040;Sub Item 1 </font>
+</p><p>		<font face="돋움">&#12040;Sub Item 2 </font>
+</p><p>		<font face="돋움">&#12040;Sub Item 3 </font>
+</p><p>	<font face="돋움">&#12056;Main Item 2 </font>
+</p><p>	<font face="돋움">&#12040;Main Item 3 </font>
+</p><p>	<font face="돋움">&#12056;Main Item 4  </font>
+<br>
+</p><p><font face="돋움">&#12039; Ordered List</font>
+</p><p>	&lt;<font face="돋움">OL&gt; &lt;LI&gt; &lt;/OL&gt; </font>
+</p><p>	<font face="돋움">이 태그는 목록에 순서를 지정하면서 리스트를 만들어 줍니다 그럼, 예를 보겠습니다.</font>
+<br>
+</p><p>	<font face="돋움">(예) </font>
+</p><p><b><font face="굴림">This is Example Ordered List.&lt;P&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">OL&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">LI&gt;I am One.</font></b>
+</p><p><b>&lt;<font face="굴림">LI&gt;I am Two.</font></b>
+</p><p><b>&lt;<font face="굴림">/OL&gt; </font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 경우)</font>
+</p><p>	<font face="돋움">This is Example Ordered List.</font>
+<br>
+</p><p>	<font face="돋움">  1. I am One. </font>
+</p><p>	<font face="돋움">  2. I am Two. </font>
+<br>
+</p><p><font face="돋움">이 태그에는 순서를 나타내는 속성이 있습니다. 속성의 역할은 다음과 같습니다.</font>
+<br>
+</p><p>	<font face="돋움">(a) Outline Type </font>
+</p><p>	&lt;<font face="돋움">OL TYPE=A|a|I|i|1&gt; &lt;LI TYPE=A|a|I|i|1&gt;</font>
+</p><p>	<font face="돋움">이 속성은 순서를 A일 경우는 A, B, C.. 순서로 i일 경우는 i, ii, iii... 등으로 번호가 매겨집니다. 예는 생략합니다. 직접 연습해보세요. </font>
+<br>
+</p><p>	<font face="돋움">(b) Starting number</font>
+</p><p>	&lt;<font face="돋움">OL START=시작하는 숫자&gt; &lt;LI START=시작하는 숫자&gt;</font>
+</p><p>	<font face="돋움">처음 시작할 값을 지정합니다. 특정한 값부터 시작하길 원할 때 이 tag을 사용하시면 됩니다. 역시 마찬가지로 &lt;OL START=?&gt;는 전체 리스트에 영향을 끼치고, &lt;LI START=?&gt;는 이것을 포함한 다음의 리스트에 영향을 미칩니다 </font>
+</p><p><font face="돋움"> </font>
+<br>
+</p><p><font face="돋움">&#12039; Definition List </font>
+<br>
+</p><p>	&lt;<font face="돋움">DL&gt; &lt;DT&gt; &lt;DD&gt; &lt;/DL&gt; (&lt;DT&gt;=term, &lt;DD&gt;=definition)</font>
+</p><p>	<font face="돋움">어떤 용어를 정의하거나 할 때 사용합니다. &lt;DT&gt;는 Term(용어)를 의미하고, &lt;DD&gt;는 Definition(정의)을 의미합니다.</font>
+</p><p>	<font face="돋움">- 이 태그의 시작과 끝을 알리는 태그로써&lt;DL&gt;&lt;/DL&gt;를 사용하고,</font>
+</p><p>	<font face="돋움">- 정의할 단어나 제목을 쓸 때 &lt;DT&gt;태그를 사용,</font>
+</p><p>	<font face="돋움">- 정의를 쓸 때 사용하는 태그로 &lt;DD&gt;를 사용한다 </font>
+<br>
+</p><p>	<font face="돋움">(예)</font>
+</p><p><b>&lt;<font face="굴림">DL&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">DT&gt;월드와이드웹이란</font></b>
+</p><p><b>&lt;<font face="굴림">DD&gt;월드와이드웹이란 여러 네트워크가 연결된 전세계적인 네트워크 망이다. </font></b>
+</p><p><b>&lt;<font face="굴림">DT&gt;FTP 란 </font></b>
+</p><p><b>&lt;<font face="굴림">DD&gt;파일 전송을 위해 만들어진 서비스로 인터넷 서비스의 한 종류</font></b>
+</p><p><b>&lt;<font face="굴림">/DL&gt; </font></b>
+<br>
+</p><p>	<font face="돋움">(화면출력결과)</font>
+<br>
+</p><p>	<font face="돋움">월드와이드웹이란 </font>
+</p><p>		<font face="돋움">월드와이드웹이란 여러 네트워크가 연결된 전세계적인 네트워크 망이다. </font>
+</p><p>	<font face="돋움">FTP 란 </font>
+</p><p>		<font face="돋움">파일 전송을 위해 만들어진 서비스로 인터넷 서비스의 한 종류 </font>
+<br>
+<br>
+</p><p>
+<img src="./1) HTML 이란_files/XPJKG003.GIF" border="0" width="320" height="29" hspace="3" vspace="3" align="BOTTOM">
+</p><p><font face="돋움">&#12039; Font Size</font>
+</p><p>&lt;<font face="돋움">FONT&gt;&lt;/FONT&gt;</font>
+</p><p>	&lt;<font face="돋움">FONT&gt;태그는 글자의 색깔과 크기, 종류들을 지정한다 &lt;/FONT&gt; 태그가 나타날 때까지의 모든 글자에 영향을 줍니다. 각 속성은 다음과 같다 </font>
+<br>
+</p><p>	<font face="돋움">(a) Font Size</font>
+</p><p>	&lt;<font face="돋움"> FONT SIZE="+/-값, 절대값&gt;</font>
+</p><p>	<font face="돋움">이 속성은 글자의 크기를 지정하는 속성이다 값은 절대값과 상대적인 값으로 나타낼 수 있습니다 . 절대적인 값은 크기를 픽셀 값으로 표현하는 것으로 SIZE=1∼7로 표현하며 상대적인 값은 기본값(3)을 기준으로 +/-n 형식으로 표현합니다. </font>
+<br>
+</p><p>	<font face="돋움">(b) Font Color</font>
+</p><p>	&lt;<font face="돋움">FONT COLOR="색상명 또는 헥사코드"&gt;</font>
+</p><p>	<font face="돋움">글자의 색깔을 지정하는 속성입니다. 역시 16진수 헥사코드나 색깔의 이름으로 표현합니다. </font>
+<br>
+</p><p>	<font face="돋움">(c) Face</font>
+</p><p>	&lt;<font face="돋움">FACE="arial, 돋움체"&gt; </font>
+</p><p>	<font face="돋움">글자의 폰트종류를 지정하는 속성입니다. 여러 폰트를 한꺼번에 지정가능하며 보는 사람의 컴퓨터에 지정한 폰트가 있어야 보여질 수 있다 </font>
+<br>
+</p><p>	<font face="돋움">(예)</font>
+</p><p><b>&lt;<font face="굴림">FONT size=5 color=blue face=굴림체&gt;위와 아래를 비교해 보세요&lt;/FONT&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">FONT size=-1 color="#ff00ff" face="helvetica, 굴림체"&gt;</font></b>
+</p><p><b><font face="굴림">위와 아래를 비교해 보세요 &lt;/FONT&gt;</font></b>
+<br>
+</p><p>	<font face="돋움">(화면출력에 출력한 겨우)</font>
+</p><p>	<font size="5"><span style="font-size:18pt;"><font face="돋움">위와 아래를 비교해 보세요</font></span></font>
+</p><p>	<font face="돋움">위와 아래를 비교해 보세요 </font>
+</p><p><font face="돋움"> </font>
+</p><p><font face="돋움">&#12039; Base Font Size</font>
+</p><p>&lt;<font face="돋움">BASEFONT SIZE=+/-값, 값&gt; </font>
+</p><p>	<font face="돋움">아무런 지시자를 가지고 있지 않은 (&lt;H1&gt; &lt;/H1&gt;라든지, &lt;B&gt; &lt;/B&gt; 등..) 기본 텍스트의 글꼴 크기를 정합니다. 값의 지정은 &lt;FONT&lt; 태그와 동일합니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; Bold &lt;B&gt;&lt;/B&gt; </font>
+</p><p>	<font face="돋움">글자를 굵게 만들어 줍니다.</font>
+<br>
+</p><p><font face="돋움">&#12039; Italic &lt;I&gt;&lt;/I&gt; </font>
+</p><p>	<font face="돋움">이탤릭체로 만들어 줍니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; Underline &lt;U&gt;&lt;/U&gt; </font>
+</p><p>	<font face="돋움">글자에 밑줄을 그어줍니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; Blinking &lt;BLINK&gt;&lt;/BLINK&gt;</font>
+</p><p>	<font face="돋움">글자를 깜박거리게 만들어줍니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; Typewriter &lt;TT&gt;&lt;/TT&gt; </font>
+</p><p>	<font face="돋움">고정폭 즉 글자의 간격을 일정한 글자로 만들어 줍니다.</font>
+<br>
+</p><p><font face="돋움">&#12039; Emphasis &lt;EM&gt; &lt;/EM&gt; </font>
+</p><p>	<font face="돋움">강조부분을 나타냅니다. 보통 이탤릭체로 표시됩니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; Strong Emphasis &lt;STRONG&gt; &lt;/STRONG&gt; </font>
+</p><p>	<font face="돋움">더 강한(?) 강조부분.. 볼드(Bold)체..</font>
+<br>
+</p><p><font face="돋움">&#12039; Citation &lt;CITE&gt; &lt;/CITE&gt;</font>
+</p><p>	<font face="돋움">인용부를 표시합니다. 보통은 그냥 이탤릭체.</font>
+<br>
+</p><p><font face="돋움">&#12039; Code &lt;CODE&gt; &lt;/CODE&gt;</font>
+</p><p>	<font face="돋움">고정폭 글꼴로 나타납니다.</font>
+<br>
+</p><p><font face="돋움">&#12039; Keyboard Input &lt;KBD&gt; &lt;/KBD&gt;</font>
+</p><p>	<font face="돋움">사용자가 타이핑한 텍스트를 표시합니다.</font>
+<br>
+</p><p><font face="돋움">&#12039; Variable &lt;VAR&gt; &lt;/VAR&gt;</font>
+</p><p>	<font face="돋움">변수를 표시합니다.</font>
+<br>
+</p><p><font face="돋움">&#12039; Definition &lt;DFN&gt; &lt;/DFN&gt;</font>
+</p><p>	<font face="돋움">정의된 용어를 표시합니다. Bold체나 Bold-Italic체로 나타납니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; Headings &lt;H1~6&gt; &lt;/H1~6&gt; </font>
+</p><p>	<font face="돋움">주로 제목이나 타이틀에 자주 이용이 되는 지시자입니다. &lt;H1&gt;에서 &lt;H6&gt;까지 있으며 &lt;H1&gt;이 가장 크게 나타내 주고요, &lt;H6&gt;이 가장 작습니다. </font>
+<br>
+</p><p>	<font face="돋움">(예) </font>
+</p><p><b>&lt;<font face="굴림">H2&gt;This is JaeMok.&lt;H2&gt; </font></b>
+<br>
+</p><p><font face="돋움">&#12039; Preformatted &lt;PRE&gt; &lt;/PRE&gt; </font>
+</p><p>	<font face="돋움">이 태그는 문장의 위치와 간격을 작성한 그대로 화면에 뿌려주는 효과를 나타내 줍니다. 단 태그는 본래의 태그로 그대로 효과를 나타냅니다.</font>
+<br>
+</p><p><font face="돋움">&#12039; Pre/No Tags </font>	&lt;<font face="돋움">XMP&gt; &lt;/XMP&gt; </font>
+</p><p>	<font face="돋움">이 태그는 &lt;PRE&gt; &lt;/PRE&gt; 와 유사하지만 태그까지도 그대로 화면에 나타내 줍니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; 특수문자</font>
+</p><p>	<font face="돋움">일반 텍스트로 나타낼 수 없는 글자를 나타내 줍니다. 자주 사용하는 특수문자에는 다음과 같은 것들이 있습니다.</font>
+<br>
+</p><p>	<font face="돋움">( &amp;nbsp; ) :   (한 칸 띄우는 효과) </font>
+</p><p>	<font face="돋움">( &amp;lt; ) : &lt; (Less Than) </font>
+</p><p>	<font face="돋움">( &amp;gt; ) : &gt; (Greater Than)</font>
+</p><p>	<font face="돋움">( &amp;amp; ) : &amp; (Ampersand)</font>
+</p><p>	<font face="돋움">( &amp;quot; ) : " (Double quote)</font>
+</p><p>	<font face="돋움">( &amp;reg; ) : R (Registered Trademark)</font>
+</p><p>	<font face="돋움">( &amp;copy; ) : ⓒ (Copyright) </font>
+<br>
+<br>
+</p><p>
+<img src="./1) HTML 이란_files/XPJKG004.GIF" border="0" width="320" height="29" hspace="3" vspace="3" align="BOTTOM">
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">1) 링크관련 태그</font></span></font>
+</p><p><font face="돋움">&#12039; Link something &lt;A HREF=" "&gt;&lt;/A&gt;</font>
+</p><p>	<font face="돋움">링크는 이미지, 문서, 사운드, 등 여러 객체를 문서 내에 링크시킬 때 사용됩니다. 경로지정방법에는 절대적 경로지정 방법과 상대적인 경로지정 방법이 있습니다.</font>
+<br>
+</p><p>	<font face="돋움">(a) 절대적 경로지정 </font>
+</p><p>	<font face="돋움">경로를 홈페이지 URL과 링크되는 요소가 있는 디렉토리 명까지 모두 지정해 주는 방법입니다. 일반적으로 외부 사이트에 있는 문서나 요소들을 링크시킬 때 사용됩니다.</font>
+<br>
+</p><p>	<font face="돋움">(예)</font>
+</p><p><b>&lt;<font face="굴림">A HREF="http://www.home.taegu.net/~narsis/index.html"&gt;</font></b>
+<br>
+</p><p>	<font face="돋움">(b) 상대적 경로지정 </font>
+</p><p>	<font face="돋움">경로를 디렉토리 명으로만 지정하는 방법입니다. 일반적으로 한 사이트 내에 있는 요소들을 링크시킬 때 사용됩니다. 절대적인 경로명보다는 상대적인 경로 설정이 아무래도 조금은 빠를 것입니다. </font>
+<br>
+</p><p>	<font face="돋움">(예)</font>
+</p><p><b>&lt;<font face="돋움">A HREF="../index.html"&gt; </font></b>
+</p><p><font face="돋움"> </font>
+<br>
+</p><p>	<font face="돋움">링크시 " "는 경로지정시 공간이 들어가지 않는다면 생략해도 무방합니다. 또한 링크시키려는 것이 현 문서보다 상위 디렉토리인 경우 '../'로 상위 디렉토리를 나타냅니다. '../'하나는 한 단계 위를 표시합니다. 따라서 두 단계 위의 디렉토리인 경우 ../../로 표현하면 됩니다 </font>
+<br>
+</p><p><font face="돋움">&#12039; Define target &lt;A HREF="#***"&gt;&lt;/A&gt;,&lt;A NAME="***"&gt;&lt;/A&gt;</font>
+</p><p>	<font face="돋움">같은 페이지 내에서 특정텍스트나 이미지를 누르면 특정위치로 이동하는 것을 보았을 것입니다. 이 태그는 문서가 길어 스크롤해서 이동하기에 불편할 때 원하는 곳으로 바로 이동할 수 있게 해주는 태그입니다.</font>
+<br>
+</p><p>	&lt;<font face="돋움">A HREF="#*** "&gt; 태그는 링크시키려는 글자나 요소들에 사용되는 태그입니다 </font>
+</p><p>	&lt;<font face="돋움">A NAME="*** "&gt;태그는 이동하고자 하는 위치에 사용됩니다</font>
+</p><p>	<font face="돋움">***의 이름은 상호 동일해야 합니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; Link to target &lt;A HREF="URL#***"&gt; </font>
+</p><p>	<font face="돋움">다른 문서내의 특정위치로 이동하고자 할 때 사용됩니다. 위의 두 링크방법을 혼합한 듯하죠.</font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">2) URL과 경로설정</font></span></font>
+</p><p><font face="돋움">&#12039; URL 이란 무엇인가?</font>
+<br>
+</p><p>	<font face="돋움">URL은 Uniform Resource Locators 의 약자이다 URL은 HTML 문서, FTP상의 문서 와 이진 데이터들 그리고 그림, 사운드, 동화상 같은 멀티미디어 데이터를 가리키며 서비스이름까지 구체적으로 지정하는, 정보를 찾는 단일화된 방식을 제시해 준다 일반적으로 PC에서는 각 디렉토리내의 어떤 화일하는 식으로 경로를 나타내듯이 인터넷상에서 URL 이라는 것을 사용하여 서비스방식, 호스트주소, 그 하위의 디렉토리에 있는 파일들을 나타내도록 하는 것이다. 따라서 인터넷상에서 원하는 곳에 있는 파일이나 여러 멀티미디어 자료를 찾고자 할 때 이 URL을 이용하여 찾아가는 것이다. URL외에 URI(Uniform Resource Identifiers)과 URN(Uniform Resource Names)이란 것이 있다. 쉽게 말해 URL 과 URN은 URI에 포함된다고 보면 된다 URI중 인터넷에서 이루어지는 서비스, 예를 들어 WWW, FTP, GOPHER, NEWS 등이 URL를 사용하고 그 외에 서비스들이 URN을 사용한다고 보면 된다. URL의 구조를 보면 처음에 사용되는 프로토콜이나 서비스명, 그 다음이 호스트의 주소 그리고 그 다음은 하위 디렉토리와 파일명이 된다 http://www.contest.co.kr/~narsis/index.html 위에서 http://은 www에서 쓰이는 프로토콜 명을 나타내고 그 다음의 www는 월드와이드웹 서비스명을 나타낸다 그리고 그 다음의 contest.co.kr은 호스트의 주소이며 이하는 호스트내의 하위디렉토리를 나타낸다 위에서 보는 것처럼 계정을 얻는다는 것은 호스트 컴퓨터의 하드중 일부분을 빌려 사용자가 자유롭게 사용할 수 있도록 권한이 부여되는 서비스인 것이다 간혹 URL 중에는 http://www.contest.co.kr:8080/... 하는 식으로 호스트 주소 뒤에 :8080 이라는 포트 번호가 붙는 경우가 있다. 포트에 대한 설명에 앞서 호스트 컴퓨터에서 사용자가 요청한 서비스를 실행하는 방법(?)에 대하여 이야기해 보자 호스트 컴퓨터 보통 UNIX 계열의 컴퓨터는 사용자가 위에서처럼 URL 이 전달되어 오면 각 서비스에 해당하는 프로그램이 자동적으로 실행되어 요구를 처리하게 된다 이런 프로그램을 데몬이라고 하는데 처음의 프로토콜의 종류를 읽어 해당하는 서비스의 데몬이 실행되는 것이다. 이때 각 서비스의 프로세스를 구분 지어 주는 일종의 통로를 호스트 컴퓨터에서 할당해 주게 된다 일반적으로 www 서비스의 경우에는 8080이나80을 쓰고 특별한 경우가 아니고서는 대부분 이 포트번호를 사용하기 때문에 사용자들이 생략하는 것이다 다음으로 각 서비스와 프로토콜의 종류에 대하여 알아본다.</font>
+<br>
+</p><p><font face="돋움">&#12039; 각 프로토콜</font>
+<br>
+</p><p>	<font face="돋움">HTTP : Hypertext Transfer Protocol의 약자이다. 보통 웹에서 가장 많이 사용되는 프로토콜인데 웹이 하이퍼텍스트 문서에 기반하고 있기 때문이다 http://으로 표현한다. </font>
+<br>
+</p><p>	<font face="돋움">FTP : 파일 전송을 위해 만들어진 프로토콜로 웹이 인기를 끌기 전, 물론 지금도 그렇지만 매우 많이 이용되는 프로토콜이다. 일반적으로 FTP서비스가 이 프로토콜을 사용하고 표현은 ftp://으로 한다 </font>
+<br>
+</p><p>	<font face="돋움">GOPHER : gopher 서비스를 가능하게 해주는 프로토콜이다. 고퍼서비스는 인터넷에서 검색을 위한 서비스이며 웹이나 ftp처럼 하위디렉토리를 써주지는 않고 고퍼서비스의 호스트 주소만 명시해 준다. gopher://로 표현</font>
+<br>
+</p><p>	<font face="돋움">TELNET : 원격지 컴퓨터에 접속해 자신의 컴퓨터를 쓰듯이 사용할 수 있는 서비스이다. 위에서도 알 수 있지만 HTTP 외에는 서비스명과 프로토콜 명이 동일하다. 표현은 telnet://</font>
+<br>
+</p><p>	<font face="돋움">NEWS : 뉴스서비스는 관심 있는 주제에 관하여 토론과 정보를 나누는 거대한 게시판이라고 할 수 있다. 뉴스서버에 접속할 때는 news://호스트 주소 뉴스 그룹이나 기사를 읽을 때는 news:로 표현한다. </font>
+<br>
+</p><p>	<font face="돋움">MAILTO : 전자메일을 사용할 때 쓰이는 프로토콜이다. mailto:으로 표현한다. mailto:narsis@nownuri.net 하면 메일을 보낼 수 있다. 위에서 mailto: 는 프로토콜을, narsis는 메일계정 보통 호스트에서 부여한 Id로 생각하면 되고 @이후가 호스트의 주소가 된다 </font>
+<br>
+</p><p><font face="돋움">&#12039; 경로지정</font>
+<br>
+</p><p>	<font face="돋움">경로지정은 절대경로 지정과 상대경로 지정으로 나눌 수 있다 절대경로지정은 위에서 이야기한 url 을 모두 적어주는 것이고 상대경로지정은 호스트 주소까지는 생략하고 이하의 디렉토리로서 표현하는 것이다 보통 문서위치에서 외부의 호스트내의 파일이나 자료에 링크시킬 경우에는 절대경로명을, 같은 호스트 안에서는 상대경로지정을 사용한다 호스트 컴퓨터에 따라서 틀리겠지만 상대경로지정이 아무래도 빠르다. </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">3) 다른 인터넷서비스로의 링크</font></span></font>
+</p><p><font face="돋움">인터넷에는 WWW 말고도 GOPHER, FTP등 여러 서비스가 있다 이번에는 이러한 여러 서비스의 주소로 링크시키는 방법에 관하여 알아본다.</font>
+<br>
+</p><p><font face="돋움">&#12039; mail 주소연결</font>
+</p><p>	<font face="돋움">메일 주소는 다음과 같은 형식으로 링크시킨다 </font>
+</p><p>	&lt;<font face="돋움">A HREF="mailto:메일주소"&gt;</font>
+<br>
+</p><p>	<font face="돋움">(예) </font>
+</p><p><b>&lt;<font face="돋움">A href="mailto:narsis@netsgo.com"&gt;narsis@netsgo.com&lt;/A&gt; </font></b>
+<br>
+</p><p>	<font face="돋움">(화면 출력)</font>
+</p><p>	<font face="돋움">narsis@netsgo.com</font>
+<br>
+</p><p><font face="돋움">&#12039; GOPHER 주소연결 </font>
+</p><p><font face="돋움">&#12039; FTP 주소연결 </font>
+<br>
+<br>
+</p><p>
+<img src="./1) HTML 이란_files/XPJKG005.GIF" border="0" width="320" height="29" hspace="3" vspace="3" align="BOTTOM">
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">1) 이미지 삽입</font></span></font>
+</p><p><font face="돋움">&#12039;&lt;IMG&gt; 태그의 기본 사용 방법</font>
+<br>
+</p><p>	<font face="돋움">홈페이지에 이미지를 삽입하기 위해서는 &lt;IMG&gt;태그를 사용합니다 이 &lt;IMG&gt;태그에는 여러 속성이 있으며 밑에서 그 속성들에 대하여 알아볼 것입니다. 사용 가능한 이미지 포맷으로는 JPEG, GIF, PNG, TIFF, BMP, XBM 이 있으며 일반적으로 아이콘과 같은 이미지의 경우에는 GIF 포맷으로 사진과 같이 선명해야 하는 경우에는 JPG포맷이 쓰입니다. 이미지의 경로는 앞서 링크부분에서 언급했듯이 절대경로명이나 상대경로로 지정할 수 있습니다. 그럼 이미지를 삽입하는 기본적인 사용법에 대한 예를 보겠습니다.</font>
+<br>
+</p><p>	<font face="돋움">(예)</font>
+</p><p><b>&lt;<font face="굴림">IMG SRC="test1.jpg"&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">IMG SRC="test1.jpg" WIDTH="140" HEIGHT="175" ALT="TEST 이미지"&gt;</font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 모습)</font>
+</p><p><font face="돋움">  </font>	
+<img src="./1) HTML 이란_files/XPJKG006.GIF" border="0" width="142" height="178" hspace="3" vspace="3" align="BOTTOM">
+<img src="./1) HTML 이란_files/XPJKG007.GIF" border="0" width="142" height="178" hspace="3" vspace="3" align="BOTTOM">
+<br>
+</p><p><font face="돋움">&#12039; &lt;IMG&gt;에 사용되는 속성 </font>
+<br>
+</p><p>	<font face="돋움">(1) SRC="URL/상대경로" : 이미지의 위치를 지정해주는 속성입니다. 위치의 지정은 상대경로명(../../image/test.jpg)나 절대경로명/URL(http://www.haninfo.net/~narsis)로 나타낼 수 있습니다.</font>
+<br>
+</p><p>	<font face="돋움">(2) ALIGN="top/middle/bottom/left/right" : 이미지와 텍스트의 정렬 방식을 결정합니다.</font>
+</p><p>	<font face="돋움">* top : 이미지와 텍스트의 상단을 맞추어 정렬</font>
+</p><p>	<font face="돋움">* middle : 중간을 맞추어 정렬</font>
+</p><p>	<font face="돋움">* bottom : 하단을 맞추어 정렬</font>
+</p><p>	<font face="돋움">* left : 이미지가 좌측에 위치</font>
+</p><p>	<font face="돋움">* right : 이미지가 우측에 위치 </font>
+<br>
+</p><p>	<font face="돋움">(3) ALT="내용" : 이미지를 보여 줄 수 없는 브라우저를 위해 이미지 대신 보여줄 내용을 적습니다. 이미지가 로딩되기 전에 이미지가 들어가야 할 곳에 보이는 텍스트입니다.</font>
+<br>
+</p><p>	<font face="돋움">(4) BORDER="숫자" : 이미지의 테두리를 픽셀로 지정합니다. 링크된 이미지의 경우에 이 값을 0이 아닌 값을 주었을 때 이미지 테두리에 링크색상이 보입니다.</font>
+<br>
+</p><p>	<font face="돋움">(5) HEIGHT="숫자" : 이미지의 높이를 픽셀로 지정합니다.</font>
+<br>
+</p><p>	<font face="돋움">(6) WIDTH="숫자" : 이미지의 폭을 픽셀로 지정합니다. 위의 HEIGHT 속성과 같이 이미지의 크기를 지정해 주면 브라우저가 홈페이지를 로딩하면서 이미지가 들어갈 자리를 미리 지정해 주고 텍스트를 로딩합니다. 또한 실제 이미지 크기가 지정한 이미지의 크기와 맞지 않아도 HEIGHT와 WIDTH에 지정한 크기대로 변형되어 보여집니다. </font>
+<br>
+</p><p>	<font face="돋움">(7) HSPACE="숫자" : 이미지의 좌우 여백 지정합니다.</font>
+<br>
+</p><p>	<font face="돋움">(8) VSPACE="숫자" : 이미지의 상단과 하단의 여백을 픽셀로 지정합니다.</font>
+<br>
+</p><p>	<font face="돋움">(예1)</font>
+</p><p><b>&lt;<font face="굴림">IMG SRC="test1.jpg" WIDTH="100" HEIGHT="100"&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">IMG SRC="test1.jpg" WIDTH="140" HEIGHT="175" ALT="TEST 이미지"&gt;</font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 모습1)</font>
+</p><p><font face="돋움">  </font>	
+<img src="./1) HTML 이란_files/XPJKG008.GIF" border="0" width="95" height="96" hspace="3" vspace="3" align="BOTTOM">
+<img src="./1) HTML 이란_files/XPJKG009.GIF" border="0" width="142" height="178" hspace="3" vspace="3" align="BOTTOM">
+<br>
+</p><p>	<font face="돋움">(예2)</font>
+</p><p><b>&lt;<font face="굴림">IMG SRC="test1.jpg" BORDER=3&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">IMG SRC="test1.jpg" WIDTH="140" HEIGHT="175" BORDER=0 &gt;</font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 모습2)</font>
+</p><p><font face="돋움">  </font>	
+<img src="./1) HTML 이란_files/XPJKG010.GIF" border="1" width="142" height="178" hspace="3" vspace="3" align="BOTTOM">
+<img src="./1) HTML 이란_files/XPJKG011.GIF" border="0" width="142" height="178" hspace="3" vspace="3" align="BOTTOM">
+<br>
+</p><p>	<font face="돋움">(예2)</font>
+</p><p><b>&lt;<font face="굴림">IMG SRC="test1.jpg" BORDER=0 ALIGN=TOP&gt;이미지1</font></b>
+</p><p><b>&lt;<font face="굴림">IMG SRC="test1.jpg" WIDTH="140" HEIGHT="175" BORDER=0 ALIGN=BOTTOM&gt;이미지2</font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 모습2)</font>
+</p><p>	
+<img src="./1) HTML 이란_files/XPJKG012.GIF" border="0" width="142" height="178" hspace="3" vspace="3" align="BOTTOM"><font face="돋움"> 이미지1</font>
+</p><p>	
+<img src="./1) HTML 이란_files/XPJKG013.GIF" border="0" width="142" height="178" hspace="3" vspace="3" align="BOTTOM"><font face="돋움"> 이미지2 </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">2) 소리 삽입</font></span></font>
+</p><p><font face="돋움">&#12039; 소리 삽입을 위한 태그</font>
+<br>
+</p><p>	<font face="돋움">소리를 삽입하는 태그에는 &lt;A&gt;, &lt;BGSOUND&gt;, &lt;EMBED&gt; 가 있습니다 . 홈페이지에 사용할 수 있는 음악 파일은 AU, MIDI, RA, WAV, SND(UNIX), AIFF(매킨토시) 확장자를 가진 파일입니다.</font>
+</p><p>	&lt;<font face="돋움">A&gt;는 링크를 위한 태그로서 소리파일뿐만 아니라 이미지 등 여러 요소를 링크시킬 수 있으며 &lt;EMBED&gt;는 소리파일을 비롯해 동화상 등 여러 멀티미디어 개체를 삽입할 때 사용됩니다. 이 부분에서는 &lt;A&gt;, &lt;BGSOUND&gt;의 사용법에 대하여 알아보고 &lt;EMBED&gt;는 밑에서 다른 멀티미디어 개체의 삽입방법과 함께 자세히 알아보겠습니다. </font>
+</p><p>	
+</p><p><font face="돋움">&#12039;&lt;A&gt;</font>
+<br>
+</p><p>	<font face="돋움">별다른 설명이 필요 없으리라 생각합니다.. 간단한 예제를 통해 알아보겠습니다.</font>
+</p><p>	<font face="돋움">(예) &lt;A HREF=""&gt;</font>
+</p><p>	<font face="돋움">(화면에 출력된 모습) </font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;BGSOUND&gt; </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">3) 동영상 삽입</font></span></font>
+</p><p><font face="돋움">&#12039; 동영상 삽입을 위한 태그</font>
+<br>
+</p><p>	<font face="돋움">인터넷에서 사용할 수 있는 동영상 파일 형식은 AVI, MOV, MPG, MPEG, QT가 있으며 이를 보기 위해서는 플러그 인을 설치하셔야 합니다. 동영상을 넣는데 사용하는 태그로는 &lt;A HREF=""&gt;와 &lt;EMBED&gt; 태그를 사용합니다. 또 HTML 3.2에 추가된 &lt;OBJECT&gt; 태그를 이용하여 동영상을 넣을 수 있습니다. &lt;A HREF=""&gt;의 경우에는 위의 소리파일과 동일하며 &lt;EMBED&gt;와 &lt;OBJECT&gt; 은 마찬가지로 기타 멀티미디어 개체 삽입에서 다루겠습니다.. </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">4) 기타 각종 멀티미디어 개체의 삽입</font></span></font>
+</p><p><font face="돋움">&#12039; &lt;EMBED&gt;&lt;/EMBED&gt; 태그</font>
+<br>
+</p><p>	&lt;<font face="돋움">EMBED&gt; 태그를 사용하여 음악, 동영상, 가상현실을 홈페이지에 넣을 수 있습니다. 홈페이지에서 멀티미디어 개체를 재생하기 위해서는 각 멀티미디어 개체를 재생시켜줄 PLUG-IN 이 설치되어 있어야 합니다. &lt;EMBED&gt; 태그의 기본적인 사용법은 다음과 같습니다.</font>
+<br>
+</p><p>	&lt;<font face="돋움">EMBED SRC=" " HEIGHT=" " WIDTH=" " AUTOSTART=" " LOOP=" " HIDDEN=" " VOLUME=" " PLUGINSPAGE=" "&gt;</font>
+</p><p>	&lt;<font face="돋움">/EMBED&gt; </font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;EMBED&gt; 태그의 속성들 </font>
+<br>
+</p><p>	<font face="돋움">(1) SRC="URL/절대경로" : 실행하고자 하는 음악, 동영상 파일의 URL이나 절대경로를 지정해 줍니다.</font>
+</p><p>	<font face="돋움">(2) HEIGHT="" : 홈페이지에 넣을 매체의 높이를 지정합니다.</font>
+</p><p>	<font face="돋움">(3) WIDTH="" : 매체의 폭을 지정합니다.</font>
+</p><p>	<font face="돋움">(4) AUTOSTART="TRUE/FALSE" : 자동 재생 기능 설정, 웹페이지 접속시 자동으로 재생할 것인가를 결정합니다.(TRUE -&gt; ON/ FALSE -&gt; OFF)</font>
+</p><p>	<font face="돋움">(5) LOOP="TRUE/FALSE" : 자동 반복 기능 설정합니다.(TRUE -&gt; ON/ FALSE -&gt; OFF) </font>
+</p><p>	<font face="돋움">(6) HIDDEN="TRUE/FALSE": 매체를 화면에 보여 줄 것인가 아닌가를 설정합니다.</font>
+</p><p>	<font face="돋움">   (TRUE --&gt; 보여 주지 않음/ FALSE --&gt; 보여 줌)</font>
+</p><p>	<font face="돋움">(7) VOLUME="" : 음악 파일 경우 소리 크기를 설정합니다.</font>
+</p><p>	<font face="돋움">(8) PLUGINSPAGE="URL" : 플러그인이 설치되어 있지 않은 사용자를 위하여 해당 플러그인을 제공하는 사이트의 주소를 적습니다. </font>
+<br>
+</p><p>	<font face="돋움">(예1)</font>
+</p><p><b>&lt;<font face="굴림">EMBED SRC="Free.mov" HEIGHT="150" WIDTH="170"</font></b>
+</p><p><b><font face="굴림">PLUGINSPAGE="HTTP://quicktime.apple.com/qt/sw/sw.html"&gt; </font></b>
+<br>
+</p><p>	<font face="돋움">(예2) 소리삽입</font>
+</p><p><b>&lt;<font face="돋움">EMBED SRC="Free.wav" HEIGHT="30" WIDTH="150"&gt; </font></b>
+<br>
+</p><p>	<font face="돋움">(예3) 동영상 삽입</font>
+</p><p><b>&lt;<font face="돋움">EMBED SRC="Free.avi" HEIGHT="130" WIDTH="150"&gt; </font></b>
+<br>
+</p><p>	<font face="돋움">(예4) VRML 화일삽입</font>
+</p><p><b>&lt;<font face="돋움">EMBED SRC="Free.wrl" HEIGHT="500" WIDTH="300"&gt; </font></b>
+<br>
+</p><p><font face="돋움">&#12039; &lt;NOEMBED&gt; &lt;/NOEMBED&gt; 태그 </font>
+<br>
+</p><p>	&lt;<font face="돋움">NOEMBED&gt; &lt;/NOEMBED&gt; 태그는 사용자의 브라우저가 플러그 인이 설치되어 있지 않은 경우나 이를 지원하지 못하는 브라우저를 사용하고 있는 경우에 &lt;IMG&gt;의 ALT와 같은 역할을 합니다. 사용 방법은 &lt;NOEMBED&gt; 넣고 싶은 내용 &lt;/NOEMBED&gt; 를 &lt;EMBED&gt; 태그와 &lt;/EMBED&gt; 태그 사이에 넣어 주시면 됩니다. 간단한 예를 보겠습니다. </font>
+<br>
+</p><p>	<font face="돋움">(예)</font>
+</p><p><b>&lt;<font face="굴림">EMBED SRC="free.wrl" WIDTH="200" HEIGHT="150"&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">NOEMBED&gt; Netscape 나 Internet Explorer를 통해 볼 수 있습니다.&lt;/NOEMBED&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/EMBED&gt; </font></b>
+<br>
+<br>
+</p><p>
+<img src="./1) HTML 이란_files/XPJKG014.GIF" border="0" width="320" height="29" hspace="3" vspace="3" align="BOTTOM">
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">1) 기본적인 태그</font></span></font>
+</p><p><font face="돋움">테이블을 제작하는 태그는 크게 3가지로 나뉩니다. 테이블 태그는 일반적으로 다음과 같은 형태를 취합니다.</font>
+<br>
+</p><p><b>&lt;<font face="굴림">TABLE&gt;</font></b>
+</p><p><b><font face="굴림">   &lt;TR&gt;</font></b>
+</p><p><b><font face="굴림">      &lt;TD&gt;...&lt;/TD&gt;</font></b>
+</p><p><b><font face="굴림">      &lt;TD&gt;...&lt;/TD&gt;</font></b>
+</p><p><b><font face="굴림">   &lt;/TR&gt;</font></b>
+</p><p><b><font face="굴림">   &lt;TR&gt;</font></b>
+</p><p><b><font face="굴림">      &lt;TD&gt;...&lt;/TD&gt;</font></b>
+</p><p><b><font face="굴림">      &lt;TD&gt;...&lt;/TD&gt;</font></b>
+</p><p><b><font face="굴림">   &lt;/TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TABLE&gt;</font></b>
+<br>
+</p><p><font face="돋움">이 3가지만 알면 기본적인 테이블 생성이 가능하다 </font>
+</p><p><font face="돋움">각 태그의 쓰임새는 다음과 같다</font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;TABLE&gt;&lt;/TABLE&gt; </font>
+</p><p>	<font face="돋움">테이블의 시작과 끝을 알립니다.</font>
+</p><p><font face="돋움">&#12039; &lt;TR&gt;&lt;/TR&gt; </font>
+</p><p>	<font face="돋움">TABLE ROWS 즉 가로 단위의 처음과 끝을 나타내는 태그입니다. 세로로 나누는 결과를 가져옵니다</font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;TD&gt;&lt;/TD&gt;</font>
+</p><p>	&lt;<font face="돋움">TR&gt; 안에서 CELL 단위 즉, 칸을 나누는 태그이다 </font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;TH&gt;&lt;/TH&gt; </font>
+</p><p>	<font face="돋움">Table Header(테이블 헤더)로 테이블 데이터(TD)를 강조할 때 사용합니다. 각 행이나 열의 제목이나 분류 기준을 나타낼 때 굵은 글자로 표현하고자 할 때 사용하는 태그입니다.</font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;CAPTION&gt;&lt;/CAPTION&gt;</font>
+</p><p>	<font face="돋움">표의 제목을 나타내는데 사용합니다. </font>
+<br>
+</p><p>	<font face="돋움">(예) 가로가 3 세로가 2인 모두6개의 CELL을 갖는 테이블을 생성해 보겠습니다.</font>
+<br>
+</p><p><b>&lt;<font face="굴림">TABLE WIDTH=50% BORDER=1&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">CAPTION&gt;표 이해 &lt;TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;1&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;2&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;3&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;4&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;5&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;6&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TABLE&gt;</font></b>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">2) 각 테이블태그의 여러 속성</font></span></font>
+</p><p><font face="돋움">테이블에는 여러 속성을 부여할 수 있습니다. 위의 3개의 태그마다 사용 가능한 속성이 다릅니다. 밑에서 각 태그마다 사용 가능한 속성과 예제를 살펴보겠습니다.</font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;TABLE&gt;에서의 속성</font>
+<br>
+</p><p>	<font face="돋움">(1) ALIGN="LEFT, CENTER, RIGHT " : 테이블전체의 위치 지정, LEFT, CENTER, RIGHT 기본값은 LEFT입니다.</font>
+</p><p>	<font face="돋움">(2) BGCOLOR="색상값/색상명" : 테이블내의 배경색을 지정합니다.</font>
+</p><p>	<font face="돋움">(3) BACKGROUND="파일명/URL" : 표에 배경 이미지를 넣을 경우에 사용합니다. 이미지 파일이 있는 경로(또는 URL)와 파일명을 적으시면 됩니다.</font>
+</p><p>	<font face="돋움">(4) WIDTH="*%/픽셀 값" : 테이블의 넓이(가로)를 지정합니다. 전체페이지 크기에 대한 비율(%)과 픽셀 단위의 크기로 나타낼 수 있습니다.</font>
+</p><p>	<font face="돋움">(5) HEIGHT="*%/픽셀 값" : 테이블의 높이(세로)를 지정합니다. 표현방법은 WIDTH와 동일합니다</font>
+</p><p>	<font face="돋움">(6) BORDER="숫자" : 테이블 주위의 여백을 지정합니다. 즉, 테이블 테두리두께를 지정합니다 </font>
+</p><p>	<font face="돋움">(7) CELLSPACING="숫자" : CELL(나누어진 칸) 사이의 간격을 조정합니다</font>
+</p><p>	<font face="돋움">(8) CELLPADDING="숫자" : CELL 안에서 내용과 CELL 경계사이의 간격을 조정합니다 </font>
+<br>
+</p><p>	<font face="돋움">(예) </font>
+</p><p><b>&lt;<font face="굴림">TABLE ALIGN=CENTER WIDTH=50% HEIGHT=50% BORDER=5 CELLSPACING=5 CELLPADDING=5&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;123456789&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;123456789&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TABLE&gt;</font></b>
+<br>
+</p><p><font face="돋움">(화면에 출력된 경우)</font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;TR&gt;에서의 속성</font>
+<br>
+</p><p>	<font face="돋움">(1) ALIGN="LEFT/CENTER/RIGHT" : 표의 행을 수평으로 어떻게 정렬할 것인가를 설정합니다. LEFT(좌측 정렬)/CENTER(중앙 정렬)/RIGHT(우측 정렬)</font>
+<br>
+</p><p>	<font face="돋움">(2) VALIGN="TOP/MIDDLE/BOTTOM" : 수직으로 어떻게 정렬할 것인가를 설정합니다. TOP(위로정렬)/MIDDLE(중간에 정렬)/BOTTOM(밑에 정렬)</font>
+<br>
+</p><p>	<font face="돋움">(3) BGCOLOR="색상값/색상명" : 행의 배경색을 설정합니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;TD&gt;에서의 속성</font>
+<br>
+</p><p>	<font face="돋움">(1) WIDTH="*%/픽셀값" : 테이블 내에서의 CELL 의 크기(넓이)를 지정합니다. </font>
+<br>
+</p><p>	<font face="돋움">(2) HEIGHT="*%/픽셀값" : 테이블 내에서의 CELL 의 높이를 지정합니다.</font>
+<br>
+</p><p>	<font face="돋움">(3) BGCOLOR="색상값/색상명" : CELL 내의 배경색을 지정합니다. </font>
+<br>
+</p><p>	<font face="돋움">(4) BACKGROUND="파일명/URL" : CELL내의 배경이미지를 지정합니다.</font>
+<br>
+</p><p>	<font face="돋움">(5) ALIGN="LEFT/CENTER/RIGHT" : CELL 내의 내용들의 수평적인 위치를 지정합니다.</font>
+</p><p>	<font face="돋움">   LEFT, CENTER, RIGHT</font>
+<br>
+</p><p>	<font face="돋움">(6) VALIGN="TOP/MIDDLE/BOTTOM" : CELL 내의 내용들의 수직적인 위치를 지정합니다.</font>
+</p><p>	<font face="돋움">   TOP, MIDDLE, BOTTOM</font>
+<br>
+</p><p>	<font face="돋움">(7) ROWSPAN=숫자 : 세로에 있는 CELL 과 합치는 속성, 지정한 숫자만큼의 CELL 을 포함</font>
+<br>
+</p><p>	<font face="돋움">(8) COLSPAN=숫자 : 가로에 있는 CELL 을 합치는 속성</font>
+<br>
+</p><p>	<font face="돋움">(예1) WIDTH, BGCOLOR</font>
+</p><p>	
+</p><p>	&lt;<font face="돋움">TABLE BORDER=1&gt;</font>
+</p><p>	&lt;<font face="돋움">TR&gt;</font>
+</p><p>	&lt;<font face="돋움">TD WIDTH=80%&gt;222222&lt;/TD&gt;</font>
+</p><p>	&lt;<font face="돋움">TD BGCOLOR=GREEN&gt;2222222&lt;/TD&gt;</font>
+</p><p>	&lt;<font face="돋움">/TR&gt;</font>
+</p><p>	&lt;<font face="돋움">/TABLE&gt;</font>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 경우1)</font>
+<br>
+</p><p>	<font face="돋움">(예2) ALIGN, VALIGN</font>
+<br>
+</p><p><b>&lt;<font face="굴림">TABLE WIDTH=30% HEIGHT=30% BORDER=1&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD ALIGN=RIGHT VALIGN=TOP&gt;444444&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD ALIGN=CENTER VALIGN=BOTTOM&gt;444444&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TABLE&gt;</font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 경우2)</font>
+<br>
+<br>
+</p><p>	<font face="돋움">(예3) ROWSPAN</font>
+<br>
+</p><p><b>&lt;<font face="굴림">TABLE BORDER=1&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD ROWSPAN=2&gt;11111&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;22&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;22&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;22&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;22&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TABLE&gt;</font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 경우3)</font>
+<br>
+</p><p>	<font face="돋움">(예4) COLSPAN</font>
+<br>
+</p><p><b>&lt;<font face="굴림">TABLE BORDER=1&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD COLSPAN=2&gt;222222&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;2222222&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;333333&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;333333&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">TD&gt;333333&lt;/TD&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TR&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/TABLE&gt;</font></b>
+<br>
+</p><p>	<font face="돋움">(화면에 출력된 경우4)</font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;TH&gt;에서의 속성</font>
+<br>
+</p><p>	<font face="돋움">(1) ALIGN="LEFT/CENTER/RIGHT" : CELL 내의 내용들의 수평적인 위치를 지정합니다.</font>
+<br>
+</p><p>	<font face="돋움">(2) BACKGROUND="파일명/URL" : CELL내의 배경이미지를 지정합니다.</font>
+<br>
+</p><p>	<font face="돋움">(3) BGCOLOR="색상값/색상명" CELL 내의 배경색을 지정합니다. </font>
+<br>
+</p><p>	<font face="돋움">(4) WIDTH="*%/픽셀값" 테이블 내에서의 CELL 의 크기(넓이)를 지정합니다.</font>
+</p><p>	
+</p><p>	<font face="돋움">(5) HEIGHT="*%/픽셀값" 테이블 내에서의 CELL 의 높이를 지정합니다.</font>
+</p><p>	
+</p><p>	<font face="돋움">(6) COLSPAN="숫자" 가로에 있는 CELL 을 합치는 속성</font>
+<br>
+</p><p>	<font face="돋움">(7) ROWSPAN="숫자" 세로에 있는 CELL 과 합치는 속성, 지정한 숫자만큼의 CELL 을 포함 </font>
+<br>
+<br>
+</p><p>
+<img src="./1) HTML 이란_files/XPJKG015.GIF" border="0" width="320" height="29" hspace="3" vspace="3" align="BOTTOM">
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">1) 프레임에 대한 기초지식</font></span></font>
+</p><p><font face="돋움">&#12039; 프레임(FRAME)이란</font>
+</p><p>	<font face="돋움">"구조, 뼈대, 액자, 틀 등. ."을 나타내는데, 여기에서도 마찬가지의 뜻을 나타냅니다. 즉, 한 화면을 여러 개의 영역(틀)으로 나누어 나타낼 수 있게 하는 것이 프레임 기능입니다. 예를 들자면 어느 홈페이지에 접속을 했는데 왼쪽에는 홈페이지의 메뉴가 표시되고 오른쪽에는 선택한 메뉴의 웹페이지가 보이는 경우가 있습니다. 이때 다른 메뉴를 선택하였는데 왼쪽 메뉴는 그대로 있고 오른쪽 웹페이지만 바뀌는 경우에 사용한 것이 바로 프레임입니다. 프레임을 사용하여 웹페이지를 만들 경우 주의할 사항은 &lt;BODY&gt; 태그를 사용하지 않습니다. &lt;BODY&gt;태그를 사용할 경우 프레임이 제대로 보이질 않습니다</font>
+<br>
+</p><p><font face="돋움">프레임의 기본 구조는 다음과 같습니다.</font>
+<br>
+</p><p><b>&lt;<font face="굴림">FRAMESET&gt;</font></b>
+</p><p><b><font face="굴림">   &lt;FRAME&gt;</font></b>
+</p><p><b><font face="굴림">     &lt;FRAMESET&gt;</font></b>
+</p><p><b><font face="굴림">       &lt;FRAME&gt;</font></b>
+</p><p><b><font face="굴림">       &lt;FRAME&gt;</font></b>
+</p><p><b><font face="굴림">     &lt;/FRAMESET&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/FRAMESET&gt;</font></b>
+<br>
+</p><p><font face="돋움">&#12039; 먼저 간단히 설명을 하자면 </font>
+</p><p>	&lt;<font face="돋움">FRAMESET&gt; 태그는 단순히 화면을 나누어주는 역할만을 하며 그 다음의 &lt;FRAME&gt; 태그는 나누어진 프레임 안에 표시된 웹페이지의 모든 정보를 나타내어 주는 역할을 합니다. 위의 예에서는 정확히 열과 행을 구별하지 않았지만 먼저 화면을 한번 프레임을 나눈 다음 나누어진 프레임 중의 하나를 다시금 나누어주는 것입니다. </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">2) &lt;FRAMESET&gt; 태그 </font></span></font>
+</p><p><font face="돋움">&#12039; &lt;FRAMESET&gt; 태그의 기본정보</font>
+<br>
+</p><p>	<font face="돋움">단순히 화면을 나누어주는 역할을 합니다. 수직 또는 수평으로 나눌 수 있으며 OPEN, CLOSE 태그를 모두 생략 할 수 없습니다. 기본 구조는 </font>
+</p><p><b>&lt;<font face="굴림">FRAMESET COLS="" ROWS="" BORDER="" BORDERCOLOR="" FRAMEBORDER="" FRAMESPACING=""&gt;</font></b>
+</p><p><b><font face="굴림">..........</font></b>
+</p><p><b>&lt;<font face="굴림">/FRAMESET&gt;</font></b>
+</p><p>	<font face="돋움">와 같습니다. 이 태그에서 사용되는 여러 속성들에 대하여 알아보겠습니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;FRAMESET&gt; 태그의 속성들 </font>
+<br>
+</p><p>	<font face="돋움">(1) COLS="픽셀값/%/*" : 수직(세로)으로 프레임을 경우 창의 개수만큼 픽셀, 화면비율(%,*)로 나눌 수 있습니다. *은 나머지 모든 값을 나타냅니다.</font>
+<br>
+</p><p>	<font face="돋움">(2) ROWS="픽셀값/%/*" : 수평(가로)으로 프레임을 나눌 경우 창의 개수만큼 픽셀, 화면비율(%,*)로 나눌 수 있습니다.</font>
+<br>
+</p><p>	<font face="돋움">(3) BORDER="픽셀" : 경계선의 두께를 설정합니다. 이 값이 0일 때 경계선이 없어집니다. 메뉴와 메인 페이지를 이렇게 0으로 넣은 홈페이지를 많이 보셨을 것입니다.</font>
+<br>
+</p><p>	<font face="돋움">(4) BORDERCOLOR="색상값/색상명" : 경계선의 색을 설정합니다.</font>
+<br>
+</p><p>	<font face="돋움">(5) FRAMEBORDER="1/0" : 프레임간 구분을 할 것인가를 설정합니다. 3-D 효과를 넣을 것인가 아닌가를 설정. (1 - 구분선을 나타냄/ 0 - 구분선을 나타내지 않음) </font>
+<br>
+</p><p><font face="돋움">&#12039; 프레임나누기 예제</font>
+<br>
+</p><p>	<font face="돋움">프레임을 나눌 때는 COLS="픽셀값/%/*"와 ROWS="픽셀값/%/*" 속성을 사용하여 분할합니다. 예제를 통해서 프레임을 나누는 것을 보겠습니다.</font>
+<br>
+</p><p>	<font face="돋움">(예1)</font>
+</p><p>	&lt;<font face="돋움">FRAMESET ROWS="30%,70%"&gt; </font>
+</p><p>	<font face="돋움">가로로 30:70 크기로 프레임을 두 개 만든 경우</font>
+<br>
+</p><p>	<font face="돋움">(예2)</font>
+</p><p>	&lt;<font face="돋움">FRAMESET COLS="30%,20%,50%"&gt; </font>
+</p><p>	<font face="돋움">세로로 30:20:50 크기로 프레임을 세 개 만든 경우 </font>
+<br>
+</p><p>	<font face="돋움">(예3)</font>
+</p><p>	&lt;<font face="돋움">FRAMESET ROWS="*,*"&gt;</font>
+</p><p>	<font face="돋움">가로로 같은 크기로 2개 프래임을 만든 경우</font>
+<br>
+</p><p>	<font face="돋움">(예4)</font>
+</p><p>	&lt;<font face="돋움">FRAMESET ROWS="40%,*"&gt;</font>
+</p><p>	<font face="돋움">가로로 40:60 크기로 프레임을 두개로 나눈 경우</font>
+<br>
+</p><p>	<font face="돋움">(예5)</font>	
+</p><p>	&lt;<font face="돋움">FRAMESET COLS="2*,*"&gt;</font>
+</p><p>	<font face="돋움">세로로 2:1의 크기로 나눌 경우</font>
+<br>
+</p><p>	<font face="돋움">(예6)</font>
+</p><p>	&lt;<font face="돋움">FRAMESET ROWS="*,3*,*"&gt;</font>
+</p><p>	<font face="돋움">가로로 1:3:1의 크기로 나눌 경우 </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">3) &lt;FRAME&gt; 태그 </font></span></font>
+</p><p><font face="돋움">&#12039; &lt;FRAME&gt; 태그의 기본정보</font>
+<br>
+</p><p>	<font face="돋움">나누어진 각 프레임에 대한 넣은 웹 페이지, 이름 등을 설정하는 태그입니다. CLOSE 태그는 생략이 가능합니다. 기본 구조는 </font>
+<br>
+</p><p><b>&lt;<font face="굴림">FRAME SRC="" NAME="" ALIGN="" NORESIZE SCROLLING="" FRAMEBORDER="" FRAMESPACING="" FRAMECOLOR="" MARGINHEIGHT="" MARGINWIDTH=""&gt;</font></b>
+<br>
+<br>
+</p><p><font face="돋움">&#12039; &lt;FRAME&gt; 태그의 속성 </font>
+<br>
+</p><p>	<font face="돋움">(1) SRC=="URL/파일명" : 프레임에 나타낼 웹페이지의 URL 또는 웹페이지 파일명을 지정합니다.</font>
+<br>
+</p><p>	<font face="돋움">(2) NAME="프레임 이름" : 프레임 이름을 지정을 지정합니다. 이 속성에서 설정된 이름은 링크부분에서 언급되었던 TARGER=""속성을 사용할 때 이용됩니다.</font>
+<br>
+</p><p>	<font face="돋움">(3) ALIGN="LEFT/CENTER/RIGHT/BOTTOM/TOP" : 정렬 방식을 지정.</font>
+<br>
+</p><p>	<font face="돋움">(4) NORESIZE : 프레임간의 경계선을 마우스로 드래그하여 조절할 수 있는데 이를 할 수 없도록 지정합니다. 홈페이지 방문자가 프레임의 크기를 임의로 조절하지 못하게 고정시키는 역할을 합니다.</font>
+<br>
+</p><p>	<font face="돋움">(5) SCROLLING="YES/NO/AUTO" : 해당 프레임에 스크롤바를 어떻게 할 것인가를 설정합니다. (YES- 항상 생김/NO- 항상 생기지 않음/AUTO - 해당 프레임에 나타낼 웹페이지가 한 화면에 표현되지 않을 경우에만 생김)</font>
+<br>
+</p><p>	<font face="돋움">(6) FRAMEBORDER="1/0" : 프레임간 구분을 할 것인가를 설정합니다. 3-D 효과를 넣을 것인가 아닌가를 설정. (1 - 구분선을 나타냄/0 - 구분선을 나타내지 않음)</font>
+<br>
+</p><p>	<font face="돋움">(7) FRAMESPACING="픽셀값" : 프레임간의 간격을 지정합니다.</font>
+<br>
+</p><p>	<font face="돋움">(8) MARGINHEIGHT="픽셀" : 프레임의 양쪽의 여백을 설정합니다.</font>
+<br>
+</p><p>	<font face="돋움">(9) MARGINWIDTH="픽셀" : 프레임의 상단 여백을 설정</font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">4) &lt;NOFRAMES&gt; 태그 </font></span></font>
+</p><p>	<font face="돋움">프레임을 나타낼 수 없는 웹브라우저를 위해 웹페이지가 프레임을 사용하였다는 것을 알려 주는 역할을 하는 태그입니다. 최근에는 거의 모든 브라우저가 프레임을 지원하므로 별다른 신경을 쓰지 않아도 되지만 &lt;NOFRAMES&gt; 태그를 이용하여 설명을 해 놓는 것이 좋을 것 같습니다. 기본 구조는 </font>
+<br>
+</p><p><b>&lt;<font face="굴림">NOFRAMES&gt; ...... &lt;/NOFRAMES&gt;</font></b>
+</p><p>	
+</p><p>	&lt;<font face="돋움">FRAMESET&gt; 태그의 앞이나 뒤의 어디에 넣어 주어도 됩니다.</font>
+<br>
+</p><p>	<font face="돋움">(예)</font>
+</p><p>	&lt;<font face="돋움">NOFRAME&gt;</font>
+</p><p>	<font face="돋움">프레임을 이용하였기 때문에 넷스케이프 2.0 이상, 익스플로러 3.0 이상에서 보셔야 합니다.</font>
+</p><p>	&lt;<font face="돋움">/NOFRAMES&gt; </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">5) 프레임사용법의 연습 </font></span></font>
+<br>
+</p><p>	<font face="돋움">프레임은 말로만 들어서는 잘 모를 것입니다. 많이 사용해 보고 프레임 특성에 대해 익숙해 질 필요가 있습니다.</font>
+<br>
+</p><p>	<font face="돋움">(예) 다음과 같은 형식의 프레임을 만들어 보겠습니다.</font>
+</p><p>	
+<table border="1" cellpadding="2" width="568" height="342">
+<tbody><tr><td valign="MIDDLE" rowspan="2" width="19%">
+<p><font face="돋움">FRAM01.HTM</font></p></td>
+<td valign="MIDDLE" width="80%">
+<p><font face="돋움">FRAME02.HTM</font></p></td>
+</tr><tr>
+<td valign="MIDDLE" width="80%">
+<p><font face="돋움">FRAME03.HTM</font></p></td>
+</tr></tbody><caption align="BOTTOM">
+</caption>
+
+</table>
+<br>
+</p><p><font face="돋움">  </font>
+</p><p>	<font face="돋움">(HTML 코드)</font>
+</p><p><b>&lt;<font face="굴림">frameset cols="16%,*"&gt;</font></b>
+</p><p><b><font face="굴림">    &lt;frame name="MENU" src="FRAM01.HTM" scrolling="auto" noresize&gt;</font></b>
+</p><p><b><font face="굴림">   &lt;frameset rows="20%,*"&gt;</font></b>
+</p><p><b><font face="굴림">      &lt;frame name="TOP" src="FRAME02.HTM" scrolling="auto" noresize&gt;</font></b>
+</p><p><b><font face="굴림">      &lt;frame name="MAIN" src="FRAME03.HTM" scrolling="auto" noresize&gt;</font></b>
+</p><p><b><font face="굴림">   &lt;/frameset&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/frameset&gt; </font></b>
+<br>
+</p><p>	<font face="돋움">(위 예제에 대한 설명)</font>
+<br>
+</p><p>	<font face="돋움">(1) &lt;frameset cols="16%,*"&gt;</font>
+</p><p>	<font face="돋움">   프레임이 없던 사각형의 화면을 세로 한 번 나눕니다.</font>
+</p><p>	<font face="돋움">   좌측은 16, 우측은 *(그 나머지 -&gt; 100 - 16 = 84)</font>
+</p><p>	<font face="돋움">   즉 좌,우 프레임의 비가 16:84로 나누어줍니다. </font>
+<br>
+</p><p>	<font face="돋움">(2) &lt;frame name="MENU" src="FRAM01.HTM" scrolling="auto" noresize&gt;</font>
+</p><p>	<font face="돋움">   좌측의 프레임에 대한 설정을 합니다.</font>
+</p><p>	<font face="돋움">   프레임 이름이 "MENU", 프레임에 나타낼 웹페이지는 "FRAME01.HTM", 스크롤바는 자동으로 생기며 프레임 크기를 고정합니다.</font>
+<br>
+</p><p>	<font face="돋움">(3) &lt;frameset rows="20%,*"&gt;</font>
+</p><p>	<font face="돋움">   우측 프레임을 다시금 가로로 나누어줍니다.</font>
+</p><p>	<font face="돋움">   위쪽 프레임의 크기를 20%, 아래쪽을 80%로 나눕니다.</font>
+<br>
+</p><p>	<font face="돋움">(4) &lt;frame name="TOP" src="FRAME02.HTM" scrolling="auto" noresize&gt;</font>
+</p><p>	<font face="돋움">   우측 프레임의 위쪽 프레임을 설정합니다. </font>
+</p><p>	<font face="돋움">   프레임 이름이 "TOP", 프레임에 나타낼 웹페이지는 "FRAME02.HTM", 스크롤바는 자동으로 생기며 프레임 크기를 고정합니다.</font>
+<br>
+</p><p>	<font face="돋움">(5) &lt;frame name="MAIN" src="FRAME03.HTM" scrolling="auto" noresize&gt;</font>
+</p><p>	<font face="돋움">   우측 프레임의 아래쪽 프레임을 설정합니다. </font>
+</p><p>	<font face="돋움">   프레임 이름이 "MAIN", 프레임에 나타낼 웹페이지는 "FRAME03.HTM", 스크롤바는 자동으로 생기며 프레임 크기를 고정합니다.</font>
+<br>
+</p><p>	<font face="돋움">(6) &lt;/frameset&gt; </font>
+</p><p>	<font face="돋움">   우측 프레임을 가로로 나눈 &lt;FRAMESET&gt; 태그를 닫습니다. </font>
+<br>
+</p><p>	<font face="돋움">(7) &lt;/frameset&gt; </font>
+</p><p>	<font face="돋움">   원 화면에서 세로로 나눈 &lt;FRAMESET&gt; 태그를 닫습니다. </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">6) 프레임에서의 링크 </font></span></font>
+</p><p>	<font face="돋움">프레임에서 링크는 TARGET=" "를 사용하여 효율적으로 관리할 수 있습니다. TARGET은 링크 부분에서도 설명하였지만 프레임과 관련하여 살펴보겠습니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; TARGET의 기본 구조</font>
+<br>
+</p><p>	<font face="돋움">TARGET의 기본 구조는 다음과 같습니다.</font>
+</p><p>	&lt;<font face="돋움">A HREF="" TARGET="문서를 띄우고자하는 창"&gt;</font>
+</p><p>	<font face="돋움">문서를 띄우고자 하는 곳에 프레임의 이름을 넣으면 링크된 문서가 해당 프레임에 띄워지고 새로운 창이나 부모격의 창에 띄울 수 있습니다. 사용법을 알아보겠습니다.</font>
+<br>
+</p><p><font face="돋움">&#12039; 사용법 </font>
+<br>
+</p><p>	<font face="돋움">(1) TARGET="특정창 이름" </font>
+</p><p>	&lt;<font face="돋움">FRAME&gt;태그를 사용한 웹페이지나 WINDOW.OPEN 스크립팅 메소드를 사용했을 경우 링크시킨 웹페이지를 이미 정의된 창을 선택하여 입력합니다.</font>
+<br>
+</p><p>	<font face="돋움">(2) TARGET="_blank" </font>
+</p><p>	<font face="돋움">브라우저를 띄우고 새로운 창으로 나타냅니다.</font>
+<br>
+</p><p>	<font face="돋움">(3) TARGET="_self" </font>
+</p><p>	<font face="돋움">현재의 창에 나타냅니다. (DEFAULT 값으로 사용됨.)</font>
+<br>
+</p><p>	<font face="돋움">(4) TARGET="_parent" </font>
+</p><p>	<font face="돋움">상위 문서창에 나타납니다.</font>
+<br>
+</p><p>	<font face="돋움">(5) TARGET="_top" </font>
+</p><p>	<font face="돋움">프레임을 이용한 현재의 브라우저에서 프레임이 없어지고 브라우저 전체 화면으로 나타납니다. </font>
+<br>
+</p><p>
+<img src="./1) HTML 이란_files/XPJKG016.GIF" border="1" width="320" height="29" hspace="3" vspace="3" align="BOTTOM">
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">1) 이미지 맵의 기본형식</font></span></font>
+<br>
+</p><p>	<font face="돋움">이미지 맵은 이미지에 링크 영역을 설정하여 다른 문서나 멀티미디어 객체에 링크시키는 용도로 사용됩니다. 마치 지도와 같이 하나의 이미지 안에서 여러 곳에 링크를 연결시킬 수 있어 이미지 맵이라고 했나 봅니다.</font>
+<br>
+</p><p><font face="돋움">이미지 맵은 크게 두 가지로 나눌 수가 있습니다. </font>
+<br>
+</p><p>	<font face="돋움">이미지 맵이 서버 측에서 이루어지는 "서버사이드 이미지 맵"과 이미지 맵을 사용하고 있는 클라이언트(즉 방문자)의 브라우저 상에서 실행되는 "클라이언트 사이드 이미지 맵"으로 나눌 수 있습니다. </font>
+</p><p>	<font face="돋움">대부분 "클라이언트 사이드 맵"을 사용합니다. 이유는 "서버사이드 맵"은 이미지 맵이 실행될 때마다 서버가 작동되어야 함으로 불필요한 부담을 줄 수 있습니다. 또한 웹서버의 종류에 따라 설정방법이 조금씩 다르기 때문에 일반 계정 사용자가 사용하기에는 불편하며 다른 인터넷 프로토콜을 사용할 수 없다는 단점이 있습니다. </font>
+<br>
+</p><p><font face="돋움">이미지 맵의 기본적인 형식은 다음과 같습니다.</font>
+<br>
+</p><p><b>&lt;<font face="굴림">img src=" " USEMAP="#이미지 맵의 이름"&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">MAP NAME="이미지 맵의 이름 "&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">AREA SHAPE=RECT/CIRCLE/POLYGON COORDS="Xn,Yn,Rn" HREF="링크경로명" TARGET="" ALT=" "&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">AREA SHAPE="DEFAULT" NOHREF&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/MAP&gt; </font></b>
+<br>
+</p><p>	<font face="돋움">위에서 &lt;img&gt;태그 안에는 이 이미지가 이미지 맵으로 사용되고 있다는 뜻으로 USEMAP="이미지맵 이름" 을 적어줍니다. 이렇게 해야 경로영역이 설정된 &lt;AREA&gt; 태그 안의 정보를 해당 이미지에 적용하게 됩니다.. 따라서 한 문서에 이미지 맵은 무수히 많이 사용될 수 있습니다. 실제 경로와 경로영역은 &lt;AREA&gt; 태그 안에서 설정해 줍니다. &lt;AREA&gt; 태그 안의 속성은 밑에서 살펴보겠습니다. &lt;AREA SHAPE="DEFAULT" NOHREF&gt;는 경로가 설정된 이외의 영역을 클릭했을 때 이동할 경로를 설정합니다. 그래서 SHAPE="DEFAULT" 입니다.. </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">2) &lt;AREA&gt; 태그 안의 속성들 </font></span></font>
+<br>
+</p><p><font face="돋움">&#12039; SHAPE=RECT/CIRCLE/POLYGON</font>
+<br>
+</p><p>	<font face="돋움">이 속성은 경로영역의 모양을 설정합니다. RECT은 사각형으로 경로를 설정한다는 것을 CIRCLE은 원으로 POLYGON 은 다각형으로 설정한다는 것을 나타냅니다.. </font>
+<br>
+</p><p><font face="돋움">&#12039; COORDS="Xn, Yn, Rn"</font>
+<br>
+</p><p>	<font face="돋움">이 속성은 실제 경로의 영역을 영역의 x/y 좌표로 설정하는 속성입니다.</font>
+<br>
+</p><p>	<font face="돋움">(1) SHAPE=RECT, 즉 사각형일 때는 사각형의 영역중 좌측의 위 모서리의 x, y 좌표와 오른쪽 아래 모서리의 x, y 좌표값을 보여줍니다. 예를 들어 COORDS="6,0,2,8" 에서 처럼 6,0 은 좌측위 모서리의 x, y 좌표이며 2,8 은 x, y 좌표를 나타냅니다.</font>
+<br>
+</p><p>	<font face="돋움">(2) SHAPE=CIRCLE, 원일 때는 원의 중심의 x, y 좌표와 원의 반지름을 설정해 줍니다. 예를 들어 COORDS="20,30,30" 에서 20은 원 중심의 x 좌표를 30은 y좌표를 30은 반지름의 크기를 나타냅니다.</font>
+<br>
+</p><p>	<font face="돋움">(3) SHAPE=POLYGON, 다각형일 때는 다각형 각 모서리의 x, y 좌표를 모두 열거합니다. 예를 들어 COORDS="1,2,3,4,5,6" 에서 1,2 과 3,4 그리고 5,6 은 3개의 모서리의 x, y 좌표를 나타냅니다.. 그러니 결국 이 예제는 삼각형으로 설정한 것입니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; 그 외의 속성 </font>
+<br>
+</p><p>	<font face="돋움">HREF 와 TARGET 은 모두 링크에서 배우셨던 것입니다. </font>
+</p><p>	<font face="돋움">SHAPE="DEFAULT" NOHREF 은 경로가 설정되지 않은 영역을 클릭했을때 이동할 영역은 설정할 때 사용됩니다.. 즉 SHAPE="DEFAULT"는 영역의 형태가 없는 즉 설정되지 않은 것을 나타내고 NOHREF는 이 영역에는 링크가 없다는 뜻입니다. 따라서 NOHREF 대신에 HREF= " " 로 링크를 설정해 주면 이외의 영역을 클릭했을 때 이동할 문서를 설정할 수 있습니다. </font>
+<br>
+</p><p>	<font face="돋움">( 예 )</font>
+</p><p><b>&lt;<font face="굴림">IMG SRC="../mapimage.gif" USEMAP="#MAP"&gt;</font></b>
+</p><p><b><font face="굴림">.</font></b>
+</p><p><b>&lt;<font face="굴림">MAP NAME="MAP"&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">AREA SHAPE=RECT COORDS="2,5,12,34" HREF="../index.html"&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">AREA SHAPE=RECT COORDS="3,4,21,23" HREF="java.htm"&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">AREA SHAPE=RECT COORDS="32,13,23,43" HREF="js.htm"&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">AREA SHAPE=RECT COORDS="13,41,23,21" HREF="image.htm"&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">AREA SHAPE=RECT COORDS="12,21,22,1" HREF="../main.htm"&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">AREA SHAPE="DEFAULT" NOHREF&gt;</font></b>
+</p><p><b>&lt;<font face="굴림">/MAP&gt; </font></b>
+<br>
+</p><p>
+<img src="./1) HTML 이란_files/XPJKG017.GIF" border="1" width="320" height="29" hspace="3" vspace="3" align="BOTTOM">
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">1) &lt;META태그&gt;의 기본형식</font></span></font>
+</p><p>	&lt;<font face="돋움">META&gt; 태그는 &lt;HEAD&gt; 태그 안에서 사용할 수 있으며, 웹페이지에 관한 정보를 브라우저에 제공하기 위한 태그로 키워드, 저작자와 온라인 웹 검색을 하는 검색 로봇에게 자신의 문서의 키워드를 알려줄 수도 있습니다.</font>
+<br>
+</p><p>&lt;<font face="돋움">META&gt; 태그 기본 구조는 다음과 같습니다.</font>
+<br>
+</p><p><b>&lt;<font face="돋움">META HTTP-EQUIV="" CONTENT="" NAME=""&gt; </font></b>
+<br>
+</p><p><font face="돋움">&#12039; HTTP-EQUIV="항목명" : </font>
+</p><p>	<font face="돋움">HTTP로 정보를 보낼 항목명 설정</font>
+<br>
+</p><p><font face="돋움">&#12039; CONTENT="정보값" :</font>
+</p><p>	<font face="돋움">항목명으로 설정된 값</font>
+<br>
+</p><p><font face="돋움">&#12039; NAME="정보 이름" : </font>
+</p><p>	<font face="돋움">몇 개의 메타 정보의 이름을 정할 수 있으며 지정하지 않으면 HTTP-EQUIV와 같은 기능을 합니다.</font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">2) &lt;META태그&gt;의 속성</font></span></font>
+</p><p><font face="돋움">&#12039; &lt;META HTTP-EQUIV="REFRESH" CONTENT="30"&gt;</font>
+</p><p>	<font face="돋움">HTTP-EQUIV="REFRESH" 속성은 페이지를 일정한 시간이 지나면 자동으로 페이지를 갱신하는 기능을 합니다. 이 예에서는 현재 페이지를 30초마다 갱신하는 즉 reload 합니다 </font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;META HTTP-EQUIV="REFRESH" CONTENT="5; FIRST.HTML"&gt;</font>
+</p><p>	<font face="돋움">위의 예와 다른 점은 여기서는 5초가 지나면 현재의 페이지를 갱신하는 것이 아니라 FIRST.HTML 을 갱신합니다. 따라서 결국 FIRST.HTML 을 5초가 지나면 자동으로 로드 합니다 홈페이지들 중에 자동으로 계속 다른 페이지로 로딩되는 것을 보신 적이 있을 것입니다</font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;META CONTENT="Content-Type" HTTP-EQUIV="text/html;charset=euc-kr"&gt;</font>
+</p><p>	<font face="돋움">이 예제에서는 이 항목이 문서의 일부분이며 TEXT/HTML 문서로 한글로 작성되었다는 정보를 보여줍니다. 한글 페이지를 만드실 때 이 정보를 기입하시면 페이지의 폰트가 다르게 보이실 것입니다. 바로 한글로 작성되었다는 것을 알려줌으로써 한글에 맞게 출력되는 것입니다 </font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1251"&gt;</font>
+</p><p>	<font face="돋움">위와 예와 비슷합니다. 문자 SET 1251을 사용한 웹페이지임을 나타냅니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;META HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT"&gt; </font>
+</p><p>	<font face="돋움">그리니치 표준시간으로 1990년 1월 6일 월요일 기준으로 유효하지 않음을 나타냅니다.</font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;META HTTP-EQUIV="Reply-To" CONTENT="인터넷주소(자신 이름)"&gt;</font>
+</p><p>	<font face="돋움">자신의 이름과 E-Mail 주소를 나타냅니다.</font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;META HTTP-EQUIV="Keyword" CONTENT="JAVA,SCRIPT"&gt; 검색 로봇에게 제공할 자신의 홈페이지의 키워드(JAVA, SCRIPT)를 나타냅니다. 이 정보는 검색엔진에 홈페이지를 등록하였을 때 검색엔진 사용자가 검색을 하였을 때 홈페이지를 검색하는 키워드로 사용됩니다. 따라서 홈페이지를 흥보하는데에도 유용하게 사용되고 있습니다. </font>
+<br>
+</p><p><font face="돋움">&#12039; &lt;META HTTP-EQUIV="description" CONTENT="TEXT"&gt;</font>
+</p><p>	<font face="돋움">홈페이지에 대한 설명을 나타내게 합니다. 위의 Keyword와 함께 검색엔진 으로 검색하였을 때 홈페이지에 대한 소개부분에 여기에 설정된 글들이 나타나게 됩니다. </font>
+<br>
+<br>
+</p><p>
+<img src="./1) HTML 이란_files/XPJKG018.GIF" border="1" width="320" height="30" hspace="3" vspace="3" align="BOTTOM">
+</p><p><font face="돋움">홈페이지는 만든 조직이나 사람들의 특성에 따라 다른 모습을 하고 있습니다. 텍스트만으로 구성된 아주 간단한 모습을 보이는 홈페이지가 있는가하면 반면 화려한 이미지와 반짝이는 아이디어에 복잡한 배치도, 그리고 소리와 영상까지 받을 수 있게 한 멀티미디어 기능까지 제공하는 홈페이지도 있습니다. 가장 좋은 홈페이지는 효율적인 배치와 분명한 주제, 그리고 적절한 그래픽이 혼합된 홈레이지라 생각됩니다.</font>
+<br>
+</p><p><font face="돋움">다음은 좋은 홈페이지를 구축하기 위한 10가지의 조언입니다. </font>
+<br>
+</p><p><b><font face="굴림">1. 사전 계획을 세운다.</font></b>
+</p><p><b><font face="굴림">2. 간단하게 만든다.</font></b>
+</p><p><b><font face="굴림">3. 군더더기가 없게 만든다.</font></b>
+</p><p><b><font face="굴림">4. 멀티미디어를 활용한다.</font></b>
+</p><p><b><font face="굴림">5. 탐색하기 쉽게 만든다.</font></b>
+</p><p><b><font face="굴림">6. 필수요소를 포함해야 한다.</font></b>
+</p><p><b><font face="굴림">7. 기존 자료를 재활용한다.</font></b>
+</p><p><b><font face="굴림">8. 업데이틀 꾸준히 한다.</font></b>
+</p><p><b><font face="굴림">9. 불필요한 선전성 홍보는 삼가한다.</font></b>
+</p><p><b><font face="굴림">10. 다양한 흥보방법을 활용한다. </font></b>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">&#12039; 사전 계획을 세운다.</font></span></font>
+</p><p>	<font face="돋움">홈페이지를 설계하는 것은 어렵지 않습니다. 그러나 마케팅을 위한 시장조사처럼 진지하고 세밀한 사전계획이 필요합니다. 즉 제시하거나 강조해야 할 중요한 메시지를 파악해 분류하고 이들 메시지를 논리적으로 조직하며, 기초 페이지를 설계한 후 일부 사용자의 테스트를 거친 다음 계속적으로 개선해야 한다는 것을 의미합니다. </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">&#12039; 간단하게 만든다.</font></span></font>
+</p><p>	<font face="돋움">책의 표지가 책의 내용에 드러내듯 홈페이지도 웹사이트의 내용을 대변합니다. 설계는 과감해야 하면서도 한 눈에 이해할 수 있어야 하며 불필요한 설명과 복잡한 배치로 인해 홈페이지를 어지럽게 만드는 것은 피하는 것이 좋습니다. 당신이 누구이며, 무엇을 제공하는가, 내용물은 무엇인가 등에 대한 몇 개의 필수적인 요점만을 명확히 해야합니다. 우선 첫 화면이 가장 중요하다고 할 수 있습니다. 웹 사용자가 홈페이지의 첫 화면에서 흥미를 느끼지 못할 경우 더 이상 들어가려 하지 않기 때문에 방문자들의 눈길을 끌 수 있어야 합니다.</font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">&#12039; 군더더기가 없게 만든다.</font></span></font>
+</p><p>	<font face="돋움">대부분의 사용자들은 모뎀을 통해 웹에 접근하기 때문에 홈페이지를 수신하기 위해 많은 시간을 기다려야 합니다. 이런 상황에서 불필요한 군더더기를 홈페이지에 추천함으로써 기다리는 시간을 늘려서는 안됩니다. 그래픽은 가능한 작게 해 수신시간을 단축시켜야 방문자들이 오래 기다림으로 인해 지루하게 되는 것을 막을 수 있습니다. 하지만 그렇다고 적절한 이미지의 사용에 소극적이거나 지나친 이미지 용량의 축소는 자칫 전체적인 홈페이지의 이미지를 손상시킬 수 있습니다. 이미지는 64 컬러이하에 크기는 20K 정도가 좋습니다. 많은 그림으로 페이지를 꾸미려하기 보다는 적절하고 아이디어가 담긴 이미지의 사용이 적절하리라 생각합니다. 일부 사용자는 10-15초가 넘어가면 인내심을 잃는다고 합니다. 따라서 페이지를 만든 후 가능하면 최악의 조건에서 제작한 페이지의 수신속도를 테스트해 보는 것도 좋은 방법일 것입니다. 또한 방문자들의 하드웨어적인 사향을 고려해야 합니다. 즉 17인치의 고해상도 모니터가 아니라 14인치에 표준 해상도 모니터를 가정해 홈페이지를 작성하는 것이 좋습니다 . </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">&#12039; 멀티미디어를 활용한다.</font></span></font>
+</p><p>	<font face="돋움">자신이 만든 홈페이지가 웹사용자의 관심을 끌어당길 수 있도록 웹의 가장 큰 장점중 하나인 멀티미디어 요소를 적절히 사용하는 것도 좋은 방법입니다. 눈길을 끄는 그래픽, 독창적인 배치도, 보기 좋은 서체 등은 웹페이지에 독특성과 차별성을 제공하는 것들이라 할 수 있습니다. 그래픽의 내용은 어느 정도 실용적인 가치를 지녀야 하면서도, 화면을 채우기 위한 장식품의 역할만을 하는 것은 아닙니다. 가장 좋은 그래픽은 수려하면서 의미를 제공하는 그래픽이라 할 수 있습니다. 그림이 내용을 보완할 수는 있지만 내용을 완전히 대체할 수는 없습니다. 수신시간을 단축하기 위해 그래픽 부분은 수신하지 않도록 자신이 사용중인 브라우저를 설정해 놓는 사용자들도 있습니다. 따라서 이들 사용자가 보는 것은 텍스트일 뿐이며 따라서 중요한 메시지나 이미지를 포함하고있는 연결 문구는 그림뿐 아니라 텍스트 형태로 나타나게 하여야 합니다. 이 이중화 구도가 잘 작동하는지 확인하기 위해 텍스트 모드에서 페이지를 테스트해 보는 것도 좋은 방법입니다.</font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">&#12039; 탐색하기 쉽게 만든다.</font></span></font>
+</p><p>	<font face="돋움">홈페이지의 중요한 역할 중 하나는 웹 서버에 저장돼 있는 정보를 쉽게 찾을 수 있게 해 주는 것입니다. 따라서 가능한 이 기능을 쉽게 사용할 수 있도록 만들어 줌으로써 방문객들에게 편리함과 시간을 절약 할 수 있게 해 줍니다. 가장 적절한 연결 항목 수는 6-8개 정도 입니다. 그러나 페이지 계층구조가 너무 복잡해 정보가 묻혀서는 곤란하고 원하는 정보를 찾기 위해 5번 이상의 항목을 선택해야 할 경우 웹 사용자는 짜증을 느끼게 된다고 합니다. 따라서 홈페이지 작성자는 정보의 넓이와 깊이 사이에 균형을 유지하며 웹사이트에 정보가 많을 경우 이 정보를 다룰 수 있도록 페이지나 연결 항목을 늘리기 위해 자료를 재분류 하는 것이 좋습니다. 또한 멀티미디어 홈페이지를 작성해야 할 경우, 각 멀티미디어 홈페이지는 자체적으로 일군의 페이지들을 갖게 되는 경우가 있습니다. 이때 키워드나 문구를 이용한 검색엔진이 제공될 경우 이런 페이지 검색시간이 훨씬 줄어들 수 있습니다. 여력이나 인적 자원이 있다면 사용용이성 측면에서 제작한 페이지의 디자인을 평가하는 것도 필요합니다. 그리고 초보자에게도 이들 페이지를 테스트시킨 후 개선점을 찾는 것도 좋은 방법입니다.</font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">&#12039; 필수요소를 포함해야 한다.</font></span></font>
+</p><p>	<font face="돋움">다음은 홈페이지라면 필수로 포함하고 있어야 하는 사항들입니다. </font>
+</p><p>	
+</p><p>	<font face="돋움">* 웹사이트를 분명하게 그리고 잘못 이해하지 않도록 이름이나 문구, 로고, 그래픽 등을 첨가합니다.</font>
+</p><p>	<font face="돋움">* 문제점을 알리기 위한 관리자의 주소 등 전자우편 주소를 알립니다.</font>
+</p><p>	<font face="돋움">* 고객 지원부서나 판매부서 등의 주소나 전화번호 같은 접촉 수단 정보를 알립니다. </font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">&#12039; 기존 자료를 재활용한다.</font></span></font>
+</p><p>	<font face="돋움">처음부터, 홈페이지를 위해 무작정 모든 것을 만들 필요는 없습니다 제품 설명서, 대중관련 문서, 기술 매뉴얼, 데이터베이스 등 기존 소스로부터 텍스트, 그래픽, 자원 등을 가져와 재활용합니다. 대부분의 경우 이들 자료는 다른 작업 없이 그대로 웹 페이지에 활용할 수도 있습니다.</font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">&#12039; 업데이틀 꾸준히 한다.</font></span></font>
+</p><p>	<font face="돋움">웹은 매일 새로운 유혹거리가 등장하고 끊임없이 변화합니다. 웹이 구축된 시점의 모습 그대로일 경우 방문자는 그 웹사이트에 대해 흥미를 잃게 됩니다. 따라서 새로운 내용을 자주 업데이트해 방문자의 눈길을 멈추지 않게 해야합니다. 적절한 동적인 요소와 함께 주제에 맞는 새로운 정보를 자주 갱신하고 전체적인 디자인도 장기적인 시점에서 새롭게 해 주는 것이 좋습니다. 그리고 웹은 항상 연결될 수 있어야 하며, 홈페이지를 볼 수 없다거나 공사중이라는 팻말을 너무 오래 걸어두는 것은 그리 좋은 방법이라 할 수 없습니다.</font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">&#12039; 불필요한 선전성 홍보는 삼간다.</font></span></font>
+</p><p>	<font face="돋움">때때로 방문객들의 눈길을 끌기 위해 지키지 못할 선전을 하는 것은 피하는 것이 좋습니다. 자칫하면 지속적인 방문객의 발길을 끊기게 할 수 있으며 신뢰감을 떨어뜨릴 수 있습니다.</font>
+<br>
+</p><p><font size="5"><span style="font-size:18pt;"><font face="돋움">&#12039; 다양한 흥보방법을 활용한다. </font></span></font>
+</p><p>	<font face="돋움">홈페이지를 예쁘게 단장하는 것은 궁극적으로 웹 사용자들을 끌어들이기 위해서 입니다. 이들 사용자가 몰리지 않는다면 아무런 의미도 없으며. 따라서 웹페이지를 쉽게 찾아 접속할 수 있도록 해야 합니다. 관련된 주제를 다루는 다른 웹사이트에 작성한 홈페이지의 주소를 알리거나, 웹 번호부, 색인, 국내외 검색엔진, 새로운 웹사이트 소식란 등에도 주소를 알리는 노력을 해야 합니다. 또한 홈페이지를 서로 광고해 주는 서비스를 이용하는 것도 좋은 방법입니다. </font>
+</p><p><font face="돋움"> </font>
+<br>
+<br>
+<br>
+</p><p><font size="6"><span style="font-size:25pt;"><b><font face="돋움">홈페이지 서버에 올리기</font></b></span></font>
+<br>
+</p><p><font face="돋움">일단 여러분이 제작한 홈페이지는 *.html, *.gif, *.jpg *.bmp 등의 파일로 구성되겠지요.</font>
+</p><p><font face="돋움">*.html 파일 안의 각 링크나 그래픽 파일의 경로가 올바르게 설정되어 있는지 확인을 한다.</font>
+</p><p><font face="돋움">만약 서버에서 index.html 파일과 동일한 디렉토리에 그래픽 파일들을 위치시킨다면 특별한 </font>
+</p><p><font face="돋움">상대경로 표시('./', 혹은 '../ 와 같은)를 하지 않아도 무방하다. 또한 설정한 파일명과 실제 파일명</font>
+</p><p><font face="돋움">에서의 대소문자가 일치하는지에 주의한다.</font>
+<br>
+</p><p><font face="돋움">다음으로 FTP를 사용한 홈페이지 파일 서버에 올리기에 대하여 설명하기로 하지요.</font>
+<br>
+</p><p><font face="돋움">1) WS-FTP나 CUTE-FTP를 실행하여 자신의 계정이 있는 서버(예를 들어 adam)에 연결합니다.</font>
+</p><p>
+<img src="./1) HTML 이란_files/XPJKG019.GIF" border="1" width="475" height="297" hspace="3" vspace="3" align="BOTTOM">
+<br>
+</p><p><font face="돋움">2) 일단 자신의 홈디렉토리 밑에 "public_html" 이란 이름의 디렉토리를 우측의 MkDir</font>
+</p><p><font face="돋움">메뉴를 클릭하여 만든다.</font>
+</p><p>
+<img src="./1) HTML 이란_files/XPJKG020.GIF" border="1" width="679" height="448" hspace="3" vspace="3" align="BOTTOM">
+<br>
+</p><p><font face="돋움">3) public_html 디렉토리로 이동하여 자신의 PC에 있는 모든 홈페이지 관련 파일을 서버로 </font>
+</p><p><font face="돋움">upload 합니다</font>
+</p><p>
+<img src="./1) HTML 이란_files/XPJKG021.GIF" border="1" width="679" height="448" hspace="3" vspace="3" align="BOTTOM">
+<br>
+</p><p><font face="돋움">4) 자! 모든 파일이 다 옮겨졌다면 이제 웹 브라우저를 띄워 자신의 홈페이지가 브라우저에 뜨는지 확인해봅시다. </font>
+<br>
+</p><p><font face="돋움">웹브라우저에 다음과 같은 형식으로 URL을 기입합니다.</font>
+</p><p><font face="돋움">초기화면은 index.html이라고 쓰지 않아도 자동으로 이 파일을 보여준다.</font>
+</p><p><font face="돋움">       </font><font size="4"><span style="font-size:17pt;"><font face="돋움">http://서버 이름/~서버에서의 자신의 ID</font></span></font>
+</p><p>
+<img src="./1) HTML 이란_files/XPJKG022.GIF" border="0" align="LEFT">
+<br>
+</p><p><font face="돋움">5) 자신이 제작한 초기화면이 브라우저에 잘 나오면, 성공적으로 홈페이지를 서버에 올린 것입니다.</font>
+</p><p><font face="돋움">축하합니다. 이제 여러분도 자신의 홈페이지를 가지게 되었군요. 그럼 앞으로 더욱 업그레이드 하여 자신만의 독창적인 홈페이지로 발전시켜 보시기 바랍니다. </font>
+
+</p></body><whale translate="no"></whale></html>
