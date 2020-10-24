@@ -5,4 +5,4 @@
 
 MIT License
 
-Copyright (c) 2018 Keffred
+Copyright (c) 2018 Yurato
